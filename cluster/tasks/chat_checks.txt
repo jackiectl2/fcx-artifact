@@ -1,0 +1,3 @@
+cap_chat_s1 checks --workload chat --policies prefix:autogen_buf32:autogen_ht:lc_trim32k --wide-policies prefix:autogen_buf32:autogen_ht:lc_trim32k --stages base:build:any:point:agg:bytes:selfcheck:life --cold 2 --warm 3
+cap_chat_s2 checks --workload chat --policies prefix:autogen_buf32:autogen_ht:lc_trim32k --wide-policies prefix:autogen_buf32:autogen_ht:lc_trim32k --stages base:build:any:point:agg:bytes:selfcheck:life --cold 2 --warm 3
+cap_chat_s3 checks --workload chat --policies prefix:autogen_buf32:autogen_ht:lc_trim32k --wide-policies prefix:autogen_buf32:autogen_ht:lc_trim32k --stages base:build:any:point:agg:bytes:selfcheck:life --cold 2 --warm 3

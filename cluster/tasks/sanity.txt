@@ -1,0 +1,4 @@
+cap_sanity_oh prefix
+cap_sanity_oh autogen_buf32
+cap_sanity_smith swea_last5
+cap_sanity_swea swea_window

@@ -1,0 +1,158 @@
+{
+ "sample": "cap_chat_s2",
+ "manager": "prefix",
+ "source": "results/chat/cap_chat_s2__index_prefix.json",
+ "source_md5": "d9fe7d8b39b9f048e3c9fe116366b06c",
+ "predicates": {
+  "eval:sub8:0": {
+   "kind": "like",
+   "s": "d key mo",
+   "truth_spans": 8
+  },
+  "eval:sub8:1": {
+   "kind": "like",
+   "s": "BI Smart",
+   "truth_spans": 9
+  },
+  "eval:sub8:2": {
+   "kind": "like",
+   "s": "honor ca",
+   "truth_spans": 5
+  },
+  "eval:sub8:3": {
+   "kind": "like",
+   "s": "las cara",
+   "truth_spans": 121
+  },
+  "eval:sub8:4": {
+   "kind": "like",
+   "s": "rgot to ",
+   "truth_spans": 64
+  },
+  "eval:sub8:5": {
+   "kind": "like",
+   "s": "ness nam",
+   "truth_spans": 61
+  },
+  "eval:sub8:6": {
+   "kind": "like",
+   "s": "e a summ",
+   "truth_spans": 111
+  },
+  "eval:sub8:7": {
+   "kind": "like",
+   "s": "internat",
+   "truth_spans": 1771
+  },
+  "eval:sub8:8": {
+   "kind": "like",
+   "s": "oss-out ",
+   "truth_spans": 7
+  },
+  "eval:sub8:9": {
+   "kind": "like",
+   "s": "without ",
+   "truth_spans": 8714
+  },
+  "eval:sub16:0": {
+   "kind": "like",
+   "s": "<redacted in this package: sampled dataset text matching a path or identifier pattern>",
+   "truth_spans": 7
+  },
+  "eval:sub16:1": {
+   "kind": "like",
+   "s": " of this broader",
+   "truth_spans": 19
+  },
+  "eval:sub16:2": {
+   "kind": "like",
+   "s": "Research Subsidi",
+   "truth_spans": 10
+  },
+  "eval:sub16:3": {
+   "kind": "like",
+   "s": "expand and elabo",
+   "truth_spans": 43
+  },
+  "eval:sub16:4": {
+   "kind": "like",
+   "s": "h Edition. Pleas",
+   "truth_spans": 14
+  },
+  "eval:sub16:5": {
+   "kind": "like",
+   "s": "o let me know if",
+   "truth_spans": 25
+  },
+  "eval:sub16:6": {
+   "kind": "like",
+   "s": "cae en la cuarta",
+   "truth_spans": 3
+  },
+  "eval:sub16:7": {
+   "kind": "like",
+   "s": "e method in clas",
+   "truth_spans": 4
+  },
+  "eval:sub16:8": {
+   "kind": "like",
+   "s": "I am saying is w",
+   "truth_spans": 6
+  },
+  "eval:sub16:9": {
+   "kind": "like",
+   "s": "ndividuals to na",
+   "truth_spans": 43
+  },
+  "eval:sub32:0": {
+   "kind": "like",
+   "s": "ments error checking mechanisms.",
+   "truth_spans": 4
+  },
+  "eval:sub32:1": {
+   "kind": "like",
+   "s": "to thoroughly evaluate your skil",
+   "truth_spans": 3
+  },
+  "eval:sub32:2": {
+   "kind": "like",
+   "s": "e wormhole terminal and going ba",
+   "truth_spans": 9
+  },
+  "eval:sub32:3": {
+   "kind": "like",
+   "s": "pletly changed after asking some",
+   "truth_spans": 2
+  },
+  "eval:sub32:4": {
+   "kind": "like",
+   "s": " short video script about ancien",
+   "truth_spans": 5
+  },
+  "eval:sub32:5": {
+   "kind": "like",
+   "s": "am unable to provide any informa",
+   "truth_spans": 3
+  },
+  "eval:sub32:6": {
+   "kind": "like",
+   "s": "ebate among Tolkien enthusiasts ",
+   "truth_spans": 12
+  },
+  "eval:sub32:7": {
+   "kind": "like",
+   "s": "  private void loadHotelsFromJso",
+   "truth_spans": 22
+  },
+  "eval:sub32:8": {
+   "kind": "like",
+   "s": "lac Super Gloss Synthetic Enamel",
+   "truth_spans": 15
+  },
+  "eval:sub32:9": {
+   "kind": "like",
+   "s": "eased to provide you with my ass",
+   "truth_spans": 3
+  }
+ }
+}

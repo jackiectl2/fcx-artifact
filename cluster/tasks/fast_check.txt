@@ -1,0 +1,7 @@
+@ROOT@/data/wiki_s1 wiki
+@ROOT@/data/cap_chat_s1 autogen_buf32
+@ROOT@/data/cap_chat_s1 prefix
+@DATA_ROOT@/cap_gym_s1 autogen_ht
+@DATA_ROOT@/cap_swea_s1 swea_last5
+@DATA_ROOT@/cap_smith_s1 swea_cache2
+@DATA_ROOT@/cap_oh_s1 lc_trim32k

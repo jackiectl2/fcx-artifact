@@ -1,0 +1,17 @@
+{
+ "src": "data/chat_pools_all/chat_pool_s1.parquet",
+ "format": "swegym",
+ "corpus_trajectories": 24498,
+ "sample": 0,
+ "seed": 1,
+ "traces": 24498,
+ "spans": 360016,
+ "managers": {
+  "prefix": {
+   "requests": 360016,
+   "logical_bytes": 5988217047,
+   "messages_sent": 6735168,
+   "seconds": 36.13225479424
+  }
+ }
+}

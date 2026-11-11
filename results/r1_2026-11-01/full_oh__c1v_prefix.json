@@ -1,0 +1,817 @@
+{
+ "meta": {
+  "clickhouse": "26.8.15.10",
+  "threads": 16,
+  "ckpt": 32,
+  "cold": 0,
+  "warm": 1,
+  "timeout_s": 30,
+  "check_timeout_s": 1800,
+  "settings": {
+   "max_threads": 16,
+   "use_query_condition_cache": 0,
+   "use_query_cache": 0,
+   "wait_end_of_query": 1,
+   "merge_tree_min_rows_for_concurrent_read": 0,
+   "merge_tree_min_bytes_for_concurrent_read": 0
+  },
+  "base_s": 70.7,
+  "granularity": {
+   "d": 8192,
+   "ckpt": 256,
+   "i": 8192,
+   "b": 1024,
+   "a": 1024,
+   "a_bf": 256,
+   "a_tx": 256,
+   "nf": 8192,
+   "ni": 8192
+  },
+  "build_s": 176.4,
+  "any_s": 388.4
+ },
+ "convert": {
+  "src": "data/trajectories/nebius__SWE-rebench-openhands-trajectories/trajectories.parquet",
+  "corpus_trajectories": 67074,
+  "sample": 0,
+  "seed": 1,
+  "traces": 67074,
+  "spans": 4316962,
+  "message_occurrences": 8768197,
+  "distinct_messages": 8601669,
+  "budget": 64,
+  "ckpt": 32,
+  "wide_traj": 3000,
+  "checked_traj": 4282,
+  "seconds": 1822.1,
+  "policies": {
+   "prefix": {
+    "array_elems": 309344794,
+    "opens": 8701123,
+    "closes": 0,
+    "fallbacks": 0,
+    "checkpoint_elems": 9762564,
+    "wide_chars": 29205431558,
+    "mean_context_len": 71.66,
+    "transitions": 8701123,
+    "transitions_per_span": 2.016,
+    "mean_run_len_spans": 35.55
+   },
+   "window32": {
+    "array_elems": 132849631,
+    "opens": 8701123,
+    "closes": 6353545,
+    "fallbacks": 0,
+    "checkpoint_elems": 3778887,
+    "wide_chars": 16078087246,
+    "mean_context_len": 30.77,
+    "transitions": 15054668,
+    "transitions_per_span": 3.487,
+    "mean_run_len_spans": 15.27
+   },
+   "amortized32": {
+    "array_elems": 178628423,
+    "opens": 8701123,
+    "closes": 5400438,
+    "fallbacks": 0,
+    "checkpoint_elems": 3778891,
+    "wide_chars": 0,
+    "mean_context_len": 41.38,
+    "transitions": 14101561,
+    "transitions_per_span": 3.267,
+    "mean_run_len_spans": 20.53
+   },
+   "elide5": {
+    "array_elems": 309344794,
+    "opens": 12615460,
+    "closes": 3914337,
+    "fallbacks": 0,
+    "checkpoint_elems": 9762564,
+    "wide_chars": 0,
+    "mean_context_len": 71.66,
+    "transitions": 16529797,
+    "transitions_per_span": 3.829,
+    "mean_run_len_spans": 24.52
+   }
+  }
+ },
+ "load": {
+  "msg": {
+   "rows": 8601669,
+   "insert_s": 12.59,
+   "cpu_s": 124.0
+  },
+  "d_prefix": {
+   "rows": 8701123,
+   "granularity": 8192,
+   "compressed_bytes": 3724258,
+   "uncompressed_bytes": 217528075,
+   "bytes_on_disk": 3757616,
+   "index_bytes": 0,
+   "column_bytes": {
+    "occ": 355085,
+    "op": 5985,
+    "trace_id": 155796,
+    "span_id": 1717752,
+    "ord": 541306,
+    "msg_id": 948334
+   },
+   "insert_s": 0.82,
+   "optimize_s": 0.76,
+   "cpu_s": 2.26
+  },
+  "ckpt_prefix": {
+   "rows": 169293,
+   "granularity": 256,
+   "compressed_bytes": 2417940,
+   "uncompressed_bytes": 160941228,
+   "bytes_on_disk": 2432105,
+   "index_bytes": 0,
+   "column_bytes": {
+    "ords": 435489,
+    "span_id": 99438,
+    "msg_ids": 1551311,
+    "occs": 331702
+   },
+   "insert_s": 0.72,
+   "optimize_s": 0.22,
+   "cpu_s": 1.05
+  },
+  "i_prefix": {
+   "rows": 8701123,
+   "granularity": 8192,
+   "compressed_bytes": 3717178,
+   "uncompressed_bytes": 243631444,
+   "bytes_on_disk": 3753937,
+   "index_bytes": 0,
+   "column_bytes": {
+    "occ": 376845,
+    "span_from": 1494352,
+    "trace_id": 368659,
+    "span_to": 617134,
+    "ord": 586086,
+    "msg_id": 274102
+   },
+   "insert_s": 0.45,
+   "optimize_s": 2.52,
+   "cpu_s": 6.76
+  },
+  "b_prefix": {
+   "rows": 8505965,
+   "granularity": 1024,
+   "compressed_bytes": 29986578,
+   "uncompressed_bytes": 398127538,
+   "bytes_on_disk": 30053461,
+   "index_bytes": 0,
+   "column_bytes": {
+    "msg_id": 211594,
+    "spans": 29774984
+   },
+   "insert_s": 4.94,
+   "optimize_s": 13.35,
+   "cpu_s": 59.13
+  },
+  "a_prefix": {
+   "rows": 4316962,
+   "granularity": 1024,
+   "compressed_bytes": 24720744,
+   "uncompressed_bytes": 1289182720,
+   "bytes_on_disk": 24751946,
+   "index_bytes": 0,
+   "column_bytes": {
+    "span_id": 19000,
+    "msg_ids": 24701744
+   },
+   "insert_s": 12.0,
+   "optimize_s": 2.23,
+   "cpu_s": 174.31
+  },
+  "a_bf_prefix": {
+   "rows": 4316962,
+   "granularity": 256,
+   "compressed_bytes": 25630864,
+   "uncompressed_bytes": 1289182720,
+   "bytes_on_disk": 38065914,
+   "index_bytes": 12270778,
+   "column_bytes": {
+    "span_id": 19000,
+    "msg_ids": 25611864
+   },
+   "insert_s": 14.12,
+   "optimize_s": 4.28,
+   "cpu_s": 199.38
+  },
+  "a_tx_prefix": {
+   "rows": 4316962,
+   "granularity": 256,
+   "compressed_bytes": 25630864,
+   "uncompressed_bytes": 1289182720,
+   "bytes_on_disk": 227487822,
+   "index_bytes": 201729582,
+   "column_bytes": {
+    "span_id": 19000,
+    "msg_ids": 25611864
+   },
+   "insert_s": 28.95,
+   "optimize_s": 34.23,
+   "cpu_s": 301.5
+  },
+  "nf_prefix": {
+   "rows": 309344794,
+   "granularity": 8192,
+   "compressed_bytes": 41446355,
+   "uncompressed_bytes": 4949516704,
+   "bytes_on_disk": 41912482,
+   "index_bytes": 0,
+   "column_bytes": {
+    "trace_id": 1634539,
+    "span_id": 8683752,
+    "msg_id": 21491931,
+    "pos": 9636133
+   },
+   "insert_s": 3.68,
+   "optimize_s": 16.34,
+   "cpu_s": 79.18
+  },
+  "ni_prefix": {
+   "rows": 309344794,
+   "granularity": 8192,
+   "compressed_bytes": 56974166,
+   "uncompressed_bytes": 4949516704,
+   "bytes_on_disk": 57529542,
+   "index_bytes": 0,
+   "column_bytes": {
+    "trace_id": 2237237,
+    "span_id": 16130138,
+    "msg_id": 20882546,
+    "pos": 17724245
+   },
+   "insert_s": 3.91,
+   "optimize_s": 23.02,
+   "cpu_s": 92.87
+  }
+ },
+ "msg_scan": {
+  "t:traceback": {
+   "cold_ms": [
+    3519.784
+   ],
+   "warm_ms": [
+    1504.571
+   ],
+   "value": "138949",
+   "read_rows": 8601669,
+   "read_bytes": 16187085170,
+   "memory": 307655972,
+   "wall_ms": 1505.577
+  },
+  "t:nosuchfile": {
+   "cold_ms": [
+    5586.47
+   ],
+   "warm_ms": [
+    991.574
+   ],
+   "value": "14478",
+   "read_rows": 8601669,
+   "read_bytes": 16187085170,
+   "memory": 315096170,
+   "wall_ms": 992.425
+  },
+  "t:assertionerror": {
+   "cold_ms": [
+    5466.921
+   ],
+   "warm_ms": [
+    986.72
+   ],
+   "value": "60654",
+   "read_rows": 8601669,
+   "read_bytes": 16187085170,
+   "memory": 317448191,
+   "wall_ms": 987.705
+  },
+  "t:importnumpy": {
+   "cold_ms": [
+    5619.001
+   ],
+   "warm_ms": [
+    1009.389
+   ],
+   "value": "122607",
+   "read_rows": 8601669,
+   "read_bytes": 16187085170,
+   "memory": 324307737,
+   "wall_ms": 1010.346
+  },
+  "t:deftest": {
+   "cold_ms": [
+    5609.779
+   ],
+   "warm_ms": [
+    948.245
+   ],
+   "value": "556156",
+   "read_rows": 8601669,
+   "read_bytes": 16187085170,
+   "memory": 316792036,
+   "wall_ms": 949.298
+  },
+  "t:gitdiff": {
+   "cold_ms": [
+    5689.656
+   ],
+   "warm_ms": [
+    996.607
+   ],
+   "value": "36125",
+   "read_rows": 8601669,
+   "read_bytes": 16187085170,
+   "memory": 308972169,
+   "wall_ms": 997.697
+  }
+ },
+ "matched": {
+  "c0.1": 8719,
+  "c1": 85815,
+  "c10": 860808,
+  "r0.1-s1": 8617,
+  "r0.1-s2": 8653,
+  "r0.1-s3": 8668,
+  "r1-s1": 85914,
+  "r1-s2": 86047,
+  "r1-s3": 86428,
+  "r10-s1": 861313,
+  "r10-s2": 859671,
+  "r10-s3": 858239,
+  "t:assertionerror": 60654,
+  "t:deftest": 556156,
+  "t:gitdiff": 36125,
+  "t:importnumpy": 122607,
+  "t:nosuchfile": 14478,
+  "t:traceback": 138949
+ },
+ "filters": {
+  "none": {
+   "pred": null
+  },
+  "repo": {
+   "pred": "repo = 'streamlink/streamlink'",
+   "spans": 43126,
+   "traces": 661
+  },
+  "trace": {
+   "pred": "trace_id = 33348",
+   "spans": 61,
+   "traces": 1
+  }
+ },
+ "calib": {},
+ "checks": {
+  "a_prefix_spans_differ_from_requests": 0,
+  "i_prefix_rows_minus_opens": 0,
+  "n_prefix_rows_minus_array_elems": 0
+ },
+ "matched_stats": {
+  "prefix": {
+   "c0.1": {
+    "runs": "8670",
+    "span_slots": "299960",
+    "run_len_quantiles": "[32,66,93]"
+   },
+   "c1": {
+    "runs": "85641",
+    "span_slots": "3000844",
+    "run_len_quantiles": "[32,67,93]"
+   },
+   "c10": {
+    "runs": "925012",
+    "span_slots": "34391875",
+    "run_len_quantiles": "[35,71,98]"
+   },
+   "r0.1-s1": {
+    "runs": "8556",
+    "span_slots": "300685",
+    "run_len_quantiles": "[32,67,94]"
+   },
+   "r0.1-s2": {
+    "runs": "8608",
+    "span_slots": "302653",
+    "run_len_quantiles": "[32,67,93.09000000000015]"
+   },
+   "r0.1-s3": {
+    "runs": "8622",
+    "span_slots": "301064",
+    "run_len_quantiles": "[32,67,94]"
+   },
+   "r1-s1": {
+    "runs": "85453",
+    "span_slots": "3015578",
+    "run_len_quantiles": "[32,68,93]"
+   },
+   "r1-s2": {
+    "runs": "85684",
+    "span_slots": "3019153",
+    "run_len_quantiles": "[32,67,93]"
+   },
+   "r1-s3": {
+    "runs": "86098",
+    "span_slots": "3021686",
+    "run_len_quantiles": "[33,68,94]"
+   },
+   "r10-s1": {
+    "runs": "857861",
+    "span_slots": "30151224",
+    "run_len_quantiles": "[32,67,94]"
+   },
+   "r10-s2": {
+    "runs": "855817",
+    "span_slots": "30049285",
+    "run_len_quantiles": "[32,67,94]"
+   },
+   "r10-s3": {
+    "runs": "854323",
+    "span_slots": "29938851",
+    "run_len_quantiles": "[32,67,94]"
+   },
+   "t:assertionerror": {
+    "runs": "60992",
+    "span_slots": "1699614",
+    "run_len_quantiles": "[22,57,91]"
+   },
+   "t:deftest": {
+    "runs": "556756",
+    "span_slots": "16143195",
+    "run_len_quantiles": "[26,55,82]"
+   },
+   "t:gitdiff": {
+    "runs": "35974",
+    "span_slots": "308442",
+    "run_len_quantiles": "[4,25,74]"
+   },
+   "t:importnumpy": {
+    "runs": "124182",
+    "span_slots": "3943216",
+    "run_len_quantiles": "[29,61,89]"
+   },
+   "t:nosuchfile": {
+    "runs": "14649",
+    "span_slots": "459323",
+    "run_len_quantiles": "[27,62,93]"
+   },
+   "t:traceback": {
+    "runs": "148016",
+    "span_slots": "5173312",
+    "run_len_quantiles": "[31,66,94]"
+   }
+  }
+ },
+ "any": [
+  {
+   "policy": "prefix",
+   "matched": "r0.1-s1",
+   "n_matched": 8617,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 286825,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    118.392
+   ],
+   "value": "286825",
+   "read_rows": 4333346,
+   "read_bytes": 1286578376,
+   "memory": 9103357,
+   "wall_ms": 119.235
+  },
+  {
+   "policy": "prefix",
+   "matched": "r0.1-s1",
+   "n_matched": 8617,
+   "filter": "none",
+   "plan": "A.bloom",
+   "cardinality": 286825,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [],
+   "error": "Code: 159. DB::Exception: Timeout exceeded: elapsed 30209.771 ms, maximum: 30000.000 ms: While executing MergeTreeSelect(pool: ReadPool, algorithm: Thread). (TIMEOUT_EXCEEDED) (version 26.8.15.10 (official build))\n"
+  },
+  {
+   "policy": "prefix",
+   "matched": "r0.1-s2",
+   "n_matched": 8653,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 289555,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    115.46
+   ],
+   "value": "289555",
+   "read_rows": 4333346,
+   "read_bytes": 1286735268,
+   "memory": 9104938,
+   "wall_ms": 116.259
+  },
+  {
+   "policy": "prefix",
+   "matched": "r0.1-s2",
+   "n_matched": 8653,
+   "filter": "none",
+   "plan": "A.bloom",
+   "cardinality": 289555,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [],
+   "error": "Code: 159. DB::Exception: Timeout exceeded: elapsed 30006.777 ms, maximum: 30000.000 ms: While executing MergeTreeSelect(pool: ReadPool, algorithm: Thread). (TIMEOUT_EXCEEDED) (version 26.8.15.10 (official build))\n"
+  },
+  {
+   "policy": "prefix",
+   "matched": "r0.1-s3",
+   "n_matched": 8668,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 288123,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    117.434
+   ],
+   "value": "288123",
+   "read_rows": 4333346,
+   "read_bytes": 1286937736,
+   "memory": 9127409,
+   "wall_ms": 118.72
+  },
+  {
+   "policy": "prefix",
+   "matched": "r0.1-s3",
+   "n_matched": 8668,
+   "filter": "none",
+   "plan": "A.bloom",
+   "cardinality": 288123,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [],
+   "error": "Code: 159. DB::Exception: Timeout exceeded: elapsed 30249.775 ms, maximum: 30000.000 ms: While executing MergeTreeSelect(pool: ReadPool, algorithm: Thread). (TIMEOUT_EXCEEDED) (version 26.8.15.10 (official build))\n"
+  },
+  {
+   "policy": "prefix",
+   "matched": "r1-s1",
+   "n_matched": 85914,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 1963378,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    138.797
+   ],
+   "value": "1963378",
+   "read_rows": 4415266,
+   "read_bytes": 1290375232,
+   "memory": 70029270,
+   "wall_ms": 139.584
+  },
+  {
+   "policy": "prefix",
+   "matched": "r1-s2",
+   "n_matched": 86047,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 1962137,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    138.122
+   ],
+   "value": "1962137",
+   "read_rows": 4407074,
+   "read_bytes": 1290264064,
+   "memory": 70008406,
+   "wall_ms": 138.957
+  },
+  {
+   "policy": "prefix",
+   "matched": "r1-s3",
+   "n_matched": 86428,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 1963379,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    139.881
+   ],
+   "value": "1963379",
+   "read_rows": 4415266,
+   "read_bytes": 1290367883,
+   "memory": 70161846,
+   "wall_ms": 140.71
+  },
+  {
+   "policy": "prefix",
+   "matched": "r10-s1",
+   "n_matched": 861313,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 4000885,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    200.214
+   ],
+   "value": "4000885",
+   "read_rows": 5185314,
+   "read_bytes": 1300468619,
+   "memory": 52240697,
+   "wall_ms": 201.086
+  },
+  {
+   "policy": "prefix",
+   "matched": "r10-s2",
+   "n_matched": 859671,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 3995966,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    194.234
+   ],
+   "value": "3995966",
+   "read_rows": 5185314,
+   "read_bytes": 1300471296,
+   "memory": 57245458,
+   "wall_ms": 195.04
+  },
+  {
+   "policy": "prefix",
+   "matched": "r10-s3",
+   "n_matched": 858239,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 3996095,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    196.555
+   ],
+   "value": "3996095",
+   "read_rows": 5185314,
+   "read_bytes": 1300539016,
+   "memory": 53340125,
+   "wall_ms": 197.382
+  },
+  {
+   "policy": "prefix",
+   "matched": "t:assertionerror",
+   "n_matched": 60654,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 875239,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    123.157
+   ],
+   "value": "875239",
+   "read_rows": 4382498,
+   "read_bytes": 1290651614,
+   "memory": 9492423,
+   "wall_ms": 124.094
+  },
+  {
+   "policy": "prefix",
+   "matched": "t:deftest",
+   "n_matched": 556156,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 3042155,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    194.802
+   ],
+   "value": "3042155",
+   "read_rows": 4882210,
+   "read_bytes": 1298259798,
+   "memory": 56993971,
+   "wall_ms": 195.624
+  },
+  {
+   "policy": "prefix",
+   "matched": "t:gitdiff",
+   "n_matched": 36125,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 196344,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    126.65
+   ],
+   "value": "196344",
+   "read_rows": 4357922,
+   "read_bytes": 1289835812,
+   "memory": 9390319,
+   "wall_ms": 127.469
+  },
+  {
+   "policy": "prefix",
+   "matched": "t:importnumpy",
+   "n_matched": 122607,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 797446,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    138.271
+   ],
+   "value": "797446",
+   "read_rows": 4448034,
+   "read_bytes": 1291644298,
+   "memory": 6571948,
+   "wall_ms": 139.145
+  },
+  {
+   "policy": "prefix",
+   "matched": "t:nosuchfile",
+   "n_matched": 14478,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 221569,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    130.665
+   ],
+   "value": "221569",
+   "read_rows": 4341538,
+   "read_bytes": 1283925658,
+   "memory": 12825711,
+   "wall_ms": 131.51
+  },
+  {
+   "policy": "prefix",
+   "matched": "t:nosuchfile",
+   "n_matched": 14478,
+   "filter": "none",
+   "plan": "A.bloom",
+   "cardinality": 221569,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [],
+   "error": "Code: 159. DB::Exception: Timeout exceeded: elapsed 30511.772 ms, maximum: 30000.000 ms: While executing MergeTreeSelect(pool: ReadPool, algorithm: Thread). (TIMEOUT_EXCEEDED) (version 26.8.15.10 (official build))\n"
+  },
+  {
+   "policy": "prefix",
+   "matched": "t:traceback",
+   "n_matched": 138949,
+   "filter": "none",
+   "plan": "A.exists",
+   "cardinality": 2289212,
+   "set_equal": true,
+   "cold_ms": [],
+   "warm_ms": [
+    162.836
+   ],
+   "value": "2289212",
+   "read_rows": 4460919,
+   "read_bytes": 1291778954,
+   "memory": 74412226,
+   "wall_ms": 163.727
+  }
+ ],
+ "point": [],
+ "agg": [],
+ "bytes": {},
+ "selfcheck": {},
+ "life": [],
+ "variants": {},
+ "lc": {},
+ "diag": [],
+ "route": [],
+ "wide": [],
+ "wcodec": [],
+ "index": {},
+ "cache_check": {
+  "before_evict": 0.0416,
+  "after_evict": 0.0,
+  "after_scan": 0.0034,
+  "evict_statements": [
+   "SYSTEM DROP MARK CACHE",
+   "SYSTEM DROP UNCOMPRESSED CACHE",
+   "SYSTEM DROP INDEX MARK CACHE",
+   "SYSTEM DROP INDEX UNCOMPRESSED CACHE",
+   "SYSTEM DROP TEXT INDEX CACHES",
+   "SYSTEM DROP QUERY CONDITION CACHE",
+   "SYSTEM UNLOAD PRIMARY KEY"
+  ]
+ },
+ "spans": 4316962,
+ "traces": 67074
+}

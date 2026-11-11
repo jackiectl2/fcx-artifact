@@ -1,0 +1,1166 @@
+{
+ "protocol": "refine-logs/E-ING-EXTENSION-PROTOCOL.md",
+ "timing_kind": "fixed-order descriptive measurements; derivation only",
+ "status": "ok",
+ "streams": 51,
+ "files": 85,
+ "correctness_failures": [],
+ "nondeterministic": [],
+ "requests_51": 5380733,
+ "claims": {
+  "C1": {
+   "status": "ok",
+   "zero_wrong_all_exact_variants_all_files": true,
+   "files_checked": 85,
+   "exact_variants": [
+    "fcx_b0",
+    "fcx_b2",
+    "fcx_b8",
+    "fcx_b64",
+    "fcx_b256",
+    "fcx_full",
+    "nokey",
+    "hash_array",
+    "pos_diff"
+   ]
+  },
+  "C2": {
+   "status": "ok",
+   "set_wrong": [
+    0.0,
+    0.9378
+   ],
+   "mset_wrong": [
+    0.0,
+    0.9378
+   ],
+   "set_wrong_managed": [
+    0.0,
+    0.9378
+   ],
+   "append_set_wrong_equals_dup_requests": true,
+   "append_streams": 12,
+   "no_dup_streams": [
+    "cap_oh_s1/prefix",
+    "cap_oh_s1/autogen_buf32",
+    "cap_oh_s1/autogen_ht",
+    "cap_oh_s1/lc_trim32k",
+    "cap_oh_s2/prefix",
+    "cap_oh_s2/autogen_buf32",
+    "cap_oh_s2/autogen_ht",
+    "cap_oh_s2/lc_trim32k"
+   ],
+   "no_dup_set_wrong": [
+    0.0,
+    0.7538
+   ]
+  },
+  "C3": {
+   "status": "ok",
+   "hash_bytes_append_or_trim": [
+    2.0227,
+    3.409
+   ],
+   "hash_bytes_swea": [
+    1.5783,
+    2.6898
+   ],
+   "hash_bytes_autogen": [
+    0.922,
+    1.2875
+   ]
+  },
+  "C4": {
+   "status": "ok",
+   "nokey_bytes_autogen_or_trim": [
+    1.4246,
+    8.2047
+   ],
+   "nokey_bytes_append_or_swea": [
+    0.4988,
+    0.717
+   ],
+   "nokey_records_all": [
+    1.0,
+    13.8945
+   ]
+  },
+  "C6": {
+   "status": "ok",
+   "b8_records_trim": [
+    1.1944,
+    2.3971
+   ],
+   "b8_records_all": [
+    1.0,
+    2.3971
+   ],
+   "b2_records_trim": [
+    2.4752,
+    10.6643
+   ],
+   "b2_records_all": [
+    1.0,
+    13.8945
+   ],
+   "b256_abs_deviation_all": [
+    0.0,
+    0.002
+   ],
+   "b0_fallback_managed": [
+    0.0308,
+    0.9368
+   ],
+   "b0_records_managed": [
+    1.4578,
+    13.8945
+   ],
+   "append_b0_fallback_requests_zero": true,
+   "b64_fallback_all": [
+    0.0,
+    0.0021
+   ]
+  },
+  "C5": {
+   "status": "ok",
+   "full_append": {
+    "seed1_streams": 4,
+    "seed1_median_range": [
+     2.9818,
+     4.3125
+    ],
+    "seed1_min": 2.8807,
+    "seed1_max": 4.448,
+    "seed23_streams": 8,
+    "seed23_single_range": [
+     2.6918,
+     4.2738
+    ]
+   },
+   "full_managed": {
+    "seed1_streams": 13,
+    "seed1_median_range": [
+     1.1049,
+     2.4769
+    ],
+    "seed1_min": 1.0774,
+    "seed1_max": 2.5044,
+    "seed23_streams": 26,
+    "seed23_single_range": [
+     1.0848,
+     2.6019
+    ]
+   },
+   "hash_append": {
+    "seed1_streams": 4,
+    "seed1_median_range": [
+     2.4668,
+     4.0591
+    ],
+    "seed1_min": 2.4004,
+    "seed1_max": 4.49,
+    "seed23_streams": 8,
+    "seed23_single_range": [
+     2.2197,
+     4.0437
+    ]
+   },
+   "hash_trim": {
+    "seed1_streams": 3,
+    "seed1_median_range": [
+     1.7897,
+     2.1173
+    ],
+    "seed1_min": 1.5931,
+    "seed1_max": 2.1475,
+    "seed23_streams": 6,
+    "seed23_single_range": [
+     1.7629,
+     2.1456
+    ]
+   },
+   "hash_autogen": {
+    "seed1_streams": 6,
+    "seed1_median_range": [
+     0.7071,
+     1.1499
+    ],
+    "seed1_min": 0.6963,
+    "seed1_max": 1.2195,
+    "seed23_streams": 12,
+    "seed23_single_range": [
+     0.6843,
+     1.0848
+    ]
+   },
+   "hash_swea": {
+    "seed1_streams": 4,
+    "seed1_median_range": [
+     0.9852,
+     2.0422
+    ],
+    "seed1_min": 0.9773,
+    "seed1_max": 2.1197,
+    "seed23_streams": 8,
+    "seed23_single_range": [
+     1.0407,
+     2.0201
+    ]
+   }
+  }
+ },
+ "c5_per_stream": [
+  {
+   "data": "cap_oh_s1",
+   "manager": "prefix",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     4.3125,
+     4.1728,
+     4.448
+    ],
+    "median": 4.3125,
+    "min": 4.1728,
+    "max": 4.448
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     4.015,
+     4.49,
+     4.0591
+    ],
+    "median": 4.0591,
+    "min": 4.015,
+    "max": 4.49
+   }
+  },
+  {
+   "data": "cap_oh_s1",
+   "manager": "autogen_buf32",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     1.4842,
+     1.3234,
+     1.6223
+    ],
+    "median": 1.4842,
+    "min": 1.3234,
+    "max": 1.6223
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     1.1499,
+     1.0223,
+     1.2195
+    ],
+    "median": 1.1499,
+    "min": 1.0223,
+    "max": 1.2195
+   }
+  },
+  {
+   "data": "cap_oh_s1",
+   "manager": "autogen_ht",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     1.2693,
+     1.2633,
+     1.3117
+    ],
+    "median": 1.2693,
+    "min": 1.2633,
+    "max": 1.3117
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     0.9704,
+     0.9646,
+     0.9995
+    ],
+    "median": 0.9704,
+    "min": 0.9646,
+    "max": 0.9995
+   }
+  },
+  {
+   "data": "cap_oh_s1",
+   "manager": "lc_trim32k",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     2.1816,
+     2.0141,
+     2.2405
+    ],
+    "median": 2.1816,
+    "min": 2.0141,
+    "max": 2.2405
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     1.7897,
+     1.5931,
+     1.8208
+    ],
+    "median": 1.7897,
+    "min": 1.5931,
+    "max": 1.8208
+   }
+  },
+  {
+   "data": "cap_gym_s1",
+   "manager": "prefix",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     3.0087,
+     2.9564,
+     3.0082
+    ],
+    "median": 3.0082,
+    "min": 2.9564,
+    "max": 3.0087
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     2.6174,
+     2.5501,
+     2.6006
+    ],
+    "median": 2.6006,
+    "min": 2.5501,
+    "max": 2.6174
+   }
+  },
+  {
+   "data": "cap_gym_s1",
+   "manager": "autogen_buf32",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     1.4115,
+     1.4345,
+     1.3592
+    ],
+    "median": 1.4115,
+    "min": 1.3592,
+    "max": 1.4345
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     1.0013,
+     1.0096,
+     0.9689
+    ],
+    "median": 1.0013,
+    "min": 0.9689,
+    "max": 1.0096
+   }
+  },
+  {
+   "data": "cap_gym_s1",
+   "manager": "autogen_ht",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     1.2184,
+     1.22,
+     1.2636
+    ],
+    "median": 1.22,
+    "min": 1.2184,
+    "max": 1.2636
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     0.8485,
+     0.8535,
+     0.8337
+    ],
+    "median": 0.8485,
+    "min": 0.8337,
+    "max": 0.8535
+   }
+  },
+  {
+   "data": "cap_gym_s1",
+   "manager": "lc_trim32k",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     2.5044,
+     2.3751,
+     2.4769
+    ],
+    "median": 2.4769,
+    "min": 2.3751,
+    "max": 2.5044
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     2.0863,
+     1.9696,
+     2.0565
+    ],
+    "median": 2.0565,
+    "min": 1.9696,
+    "max": 2.0863
+   }
+  },
+  {
+   "data": "cap_smith_s1",
+   "manager": "prefix",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     3.2704,
+     3.4679,
+     3.2371
+    ],
+    "median": 3.2704,
+    "min": 3.2371,
+    "max": 3.4679
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     2.9566,
+     3.1358,
+     2.9447
+    ],
+    "median": 2.9566,
+    "min": 2.9447,
+    "max": 3.1358
+   }
+  },
+  {
+   "data": "cap_smith_s1",
+   "manager": "autogen_buf32",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     1.3665,
+     1.3961,
+     1.3232
+    ],
+    "median": 1.3665,
+    "min": 1.3232,
+    "max": 1.3961
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     0.972,
+     1.0181,
+     1.0231
+    ],
+    "median": 1.0181,
+    "min": 0.972,
+    "max": 1.0231
+   }
+  },
+  {
+   "data": "cap_smith_s1",
+   "manager": "lc_trim32k",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     2.4083,
+     2.4744,
+     2.4134
+    ],
+    "median": 2.4134,
+    "min": 2.4083,
+    "max": 2.4744
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     2.092,
+     2.1475,
+     2.1173
+    ],
+    "median": 2.1173,
+    "min": 2.092,
+    "max": 2.1475
+   }
+  },
+  {
+   "data": "cap_smith_s1",
+   "manager": "swea_cache2",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     1.9274,
+     1.8932,
+     2.0408
+    ],
+    "median": 1.9274,
+    "min": 1.8932,
+    "max": 2.0408
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     1.6089,
+     1.5689,
+     1.6572
+    ],
+    "median": 1.6089,
+    "min": 1.5689,
+    "max": 1.6572
+   }
+  },
+  {
+   "data": "cap_smith_s1",
+   "manager": "swea_last5",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     2.2644,
+     2.3429,
+     2.3913
+    ],
+    "median": 2.3429,
+    "min": 2.2644,
+    "max": 2.3913
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     2.0007,
+     2.0422,
+     2.1197
+    ],
+    "median": 2.0422,
+    "min": 2.0007,
+    "max": 2.1197
+   }
+  },
+  {
+   "data": "cap_swea_s1",
+   "manager": "prefix",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     3.0305,
+     2.8807,
+     2.9818
+    ],
+    "median": 2.9818,
+    "min": 2.8807,
+    "max": 3.0305
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     2.4004,
+     2.4668,
+     2.5196
+    ],
+    "median": 2.4668,
+    "min": 2.4004,
+    "max": 2.5196
+   }
+  },
+  {
+   "data": "cap_swea_s1",
+   "manager": "autogen_ht",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     1.1049,
+     1.0774,
+     1.1283
+    ],
+    "median": 1.1049,
+    "min": 1.0774,
+    "max": 1.1283
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     0.7071,
+     0.6963,
+     0.7131
+    ],
+    "median": 0.7071,
+    "min": 0.6963,
+    "max": 0.7131
+   }
+  },
+  {
+   "data": "cap_swea_s1",
+   "manager": "swea_last5",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     1.3959,
+     1.3918,
+     1.4417
+    ],
+    "median": 1.3959,
+    "min": 1.3918,
+    "max": 1.4417
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     0.9773,
+     0.9852,
+     1.034
+    ],
+    "median": 0.9852,
+    "min": 0.9773,
+    "max": 1.034
+   }
+  },
+  {
+   "data": "cap_swea_s1",
+   "manager": "swea_window",
+   "seed": 1,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     2.0929,
+     2.1204,
+     2.0914
+    ],
+    "median": 2.0929,
+    "min": 2.0914,
+    "max": 2.1204
+   },
+   "hash_cpu": {
+    "kind": "three fixed-order descriptive measurements",
+    "values": [
+     1.6203,
+     1.6719,
+     1.6287
+    ],
+    "median": 1.6287,
+    "min": 1.6203,
+    "max": 1.6719
+   }
+  },
+  {
+   "data": "cap_oh_s2",
+   "manager": "prefix",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 4.0277
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 3.8831
+   }
+  },
+  {
+   "data": "cap_oh_s2",
+   "manager": "autogen_buf32",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.4471
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 1.0848
+   }
+  },
+  {
+   "data": "cap_oh_s2",
+   "manager": "autogen_ht",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.1811
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 0.9085
+   }
+  },
+  {
+   "data": "cap_oh_s2",
+   "manager": "lc_trim32k",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 2.1414
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 1.7869
+   }
+  },
+  {
+   "data": "cap_gym_s2",
+   "manager": "prefix",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 2.6918
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 2.2197
+   }
+  },
+  {
+   "data": "cap_gym_s2",
+   "manager": "autogen_buf32",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.4126
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 1.0165
+   }
+  },
+  {
+   "data": "cap_gym_s2",
+   "manager": "autogen_ht",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.2546
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 0.8969
+   }
+  },
+  {
+   "data": "cap_gym_s2",
+   "manager": "lc_trim32k",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 2.3475
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 1.9338
+   }
+  },
+  {
+   "data": "cap_smith_s2",
+   "manager": "prefix",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 3.0747
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 2.8763
+   }
+  },
+  {
+   "data": "cap_smith_s2",
+   "manager": "autogen_buf32",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.3647
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 0.9764
+   }
+  },
+  {
+   "data": "cap_smith_s2",
+   "manager": "lc_trim32k",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 2.4201
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 2.0408
+   }
+  },
+  {
+   "data": "cap_smith_s2",
+   "manager": "swea_cache2",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.8734
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 1.6025
+   }
+  },
+  {
+   "data": "cap_smith_s2",
+   "manager": "swea_last5",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 2.3289
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 2.0201
+   }
+  },
+  {
+   "data": "cap_swea_s2",
+   "manager": "prefix",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 2.9081
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 2.5026
+   }
+  },
+  {
+   "data": "cap_swea_s2",
+   "manager": "autogen_ht",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.1028
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 0.7094
+   }
+  },
+  {
+   "data": "cap_swea_s2",
+   "manager": "swea_last5",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.4692
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 1.0407
+   }
+  },
+  {
+   "data": "cap_swea_s2",
+   "manager": "swea_window",
+   "seed": 2,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 2.1842
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 1.6864
+   }
+  },
+  {
+   "data": "cap_oh_s3",
+   "manager": "prefix",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 4.2738
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 4.0437
+   }
+  },
+  {
+   "data": "cap_oh_s3",
+   "manager": "autogen_buf32",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.3448
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 1.0277
+   }
+  },
+  {
+   "data": "cap_oh_s3",
+   "manager": "autogen_ht",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.085
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 0.8124
+   }
+  },
+  {
+   "data": "cap_oh_s3",
+   "manager": "lc_trim32k",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 2.1795
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 1.7629
+   }
+  },
+  {
+   "data": "cap_gym_s3",
+   "manager": "prefix",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 2.8973
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 2.5876
+   }
+  },
+  {
+   "data": "cap_gym_s3",
+   "manager": "autogen_buf32",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.4072
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 0.9754
+   }
+  },
+  {
+   "data": "cap_gym_s3",
+   "manager": "autogen_ht",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.2301
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 0.8291
+   }
+  },
+  {
+   "data": "cap_gym_s3",
+   "manager": "lc_trim32k",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 2.6019
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 2.1456
+   }
+  },
+  {
+   "data": "cap_smith_s3",
+   "manager": "prefix",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 3.362
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 3.028
+   }
+  },
+  {
+   "data": "cap_smith_s3",
+   "manager": "autogen_buf32",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.3819
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 1.0107
+   }
+  },
+  {
+   "data": "cap_smith_s3",
+   "manager": "lc_trim32k",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 2.3664
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 2.0812
+   }
+  },
+  {
+   "data": "cap_smith_s3",
+   "manager": "swea_cache2",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.9295
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 1.5944
+   }
+  },
+  {
+   "data": "cap_smith_s3",
+   "manager": "swea_last5",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 2.2848
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 2.0022
+   }
+  },
+  {
+   "data": "cap_swea_s3",
+   "manager": "prefix",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 3.0254
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 2.5394
+   }
+  },
+  {
+   "data": "cap_swea_s3",
+   "manager": "autogen_ht",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.0848
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 0.6843
+   }
+  },
+  {
+   "data": "cap_swea_s3",
+   "manager": "swea_last5",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 1.4282
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 1.0576
+   }
+  },
+  {
+   "data": "cap_swea_s3",
+   "manager": "swea_window",
+   "seed": 3,
+   "status": "ok",
+   "full_cpu": {
+    "kind": "single run",
+    "value": 2.1695
+   },
+   "hash_cpu": {
+    "kind": "single run",
+    "value": 1.6859
+   }
+  }
+ ]
+}

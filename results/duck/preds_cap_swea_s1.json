@@ -1,0 +1,159 @@
+{
+ "sample": "cap_swea_s1",
+ "manager": "prefix",
+ "source": "fcx/results/r1_2026-10-03_late/cap_swea_s1__index_prefix.json",
+ "source_md5": "c02b24b4535c66fd6d92244653fdfcc6",
+ "meta": {},
+ "predicates": {
+  "eval:sub8:0": {
+   "kind": "like",
+   "s": "indicate",
+   "truth_spans": 30094
+  },
+  "eval:sub8:1": {
+   "kind": "like",
+   "s": "ommand t",
+   "truth_spans": 77020
+  },
+  "eval:sub8:2": {
+   "kind": "like",
+   "s": "changes ",
+   "truth_spans": 77020
+  },
+  "eval:sub8:3": {
+   "kind": "like",
+   "s": "rovider ",
+   "truth_spans": 942
+  },
+  "eval:sub8:4": {
+   "kind": "like",
+   "s": "s in the",
+   "truth_spans": 77020
+  },
+  "eval:sub8:5": {
+   "kind": "like",
+   "s": "09:     ",
+   "truth_spans": 27095
+  },
+  "eval:sub16:0": {
+   "kind": "like",
+   "s": "behavior accord",
+   "truth_spans": 75
+  },
+  "eval:sub16:1": {
+   "kind": "like",
+   "s": "hat the checking",
+   "truth_spans": 5
+  },
+  "eval:sub16:2": {
+   "kind": "like",
+   "s": "elated to how th",
+   "truth_spans": 3930
+  },
+  "eval:sub16:3": {
+   "kind": "like",
+   "s": "correctly added ",
+   "truth_spans": 1096
+  },
+  "eval:sub16:4": {
+   "kind": "like",
+   "s": " to set up the p",
+   "truth_spans": 131
+  },
+  "eval:sub16:5": {
+   "kind": "like",
+   "s": "need to 1) Speci",
+   "truth_spans": 26382
+  },
+  "eval:sub32:0": {
+   "kind": "like",
+   "s": "and the value. We need to speci",
+   "truth_spans": 11
+  },
+  "eval:sub32:1": {
+   "kind": "like",
+   "s": " current working directory to ge",
+   "truth_spans": 638
+  },
+  "eval:sub32:2": {
+   "kind": "like",
+   "s": "n(Current directory: /openfoodfa",
+   "truth_spans": 67
+  },
+  "eval:sub32:3": {
+   "kind": "like",
+   "s": "new config.  Automatically updat",
+   "truth_spans": 13
+  },
+  "eval:sub32:4": {
+   "kind": "like",
+   "s": "                assert isinstanc",
+   "truth_spans": 180
+  },
+  "eval:sub32:5": {
+   "kind": "like",
+   "s": "cessible through Google search w",
+   "truth_spans": 28
+  },
+  "eval:re:0": {
+   "kind": "match",
+   "s": "Ran [0-9]+ tests? in [0-9.]+s",
+   "truth_spans": 1078
+  },
+  "eval:re:1": {
+   "kind": "match",
+   "s": "def test_[a-z0-9_]+",
+   "truth_spans": 7894
+  },
+  "eval:re:2": {
+   "kind": "match",
+   "s": "import [a-z]+ as [a-z]+",
+   "truth_spans": 13516
+  },
+  "eval:re:3": {
+   "kind": "match",
+   "s": "git (diff|status|log)",
+   "truth_spans": 514
+  },
+  "eval:re:4": {
+   "kind": "match",
+   "s": "[0-9]+ failed, [0-9]+ passed",
+   "truth_spans": 655
+  },
+  "eval:re:5": {
+   "kind": "match",
+   "s": "No such file or directory: [^ ]+",
+   "truth_spans": 2595
+  },
+  "eval:t:traceback": {
+   "kind": "like",
+   "s": "Traceback (most recent call last)",
+   "truth_spans": 37993
+  },
+  "eval:t:nosuchfile": {
+   "kind": "like",
+   "s": "No such file or directory",
+   "truth_spans": 13731
+  },
+  "eval:t:assertionerror": {
+   "kind": "like",
+   "s": "AssertionError",
+   "truth_spans": 5335
+  },
+  "eval:t:importnumpy": {
+   "kind": "like",
+   "s": "import numpy",
+   "truth_spans": 3814
+  },
+  "eval:t:deftest": {
+   "kind": "like",
+   "s": "def test_",
+   "truth_spans": 7894
+  },
+  "eval:t:gitdiff": {
+   "kind": "like",
+   "s": "git diff",
+   "truth_spans": 442
+  }
+ }
+}

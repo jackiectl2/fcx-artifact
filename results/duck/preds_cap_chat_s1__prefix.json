@@ -1,0 +1,158 @@
+{
+ "sample": "cap_chat_s1",
+ "manager": "prefix",
+ "source": "results/chat/cap_chat_s1__index_prefix.json",
+ "source_md5": "ccd43e971ba23627a3d5b4979bedfe71",
+ "predicates": {
+  "eval:sub8:0": {
+   "kind": "like",
+   "s": "lue H on",
+   "truth_spans": 7
+  },
+  "eval:sub8:1": {
+   "kind": "like",
+   "s": "ithin a ",
+   "truth_spans": 2879
+  },
+  "eval:sub8:2": {
+   "kind": "like",
+   "s": "efficien",
+   "truth_spans": 5444
+  },
+  "eval:sub8:3": {
+   "kind": "like",
+   "s": "tionship",
+   "truth_spans": 4697
+  },
+  "eval:sub8:4": {
+   "kind": "like",
+   "s": "ls sont ",
+   "truth_spans": 380
+  },
+  "eval:sub8:5": {
+   "kind": "like",
+   "s": "rwowanie",
+   "truth_spans": 12
+  },
+  "eval:sub8:6": {
+   "kind": "like",
+   "s": "ed story",
+   "truth_spans": 208
+  },
+  "eval:sub8:7": {
+   "kind": "like",
+   "s": " der dur",
+   "truth_spans": 122
+  },
+  "eval:sub8:8": {
+   "kind": "like",
+   "s": "which co",
+   "truth_spans": 2942
+  },
+  "eval:sub8:9": {
+   "kind": "like",
+   "s": "uentas d",
+   "truth_spans": 29
+  },
+  "eval:sub16:0": {
+   "kind": "like",
+   "s": "phrase you said",
+   "truth_spans": 4
+  },
+  "eval:sub16:1": {
+   "kind": "like",
+   "s": "he teaching of i",
+   "truth_spans": 8
+  },
+  "eval:sub16:2": {
+   "kind": "like",
+   "s": "to prevent cross",
+   "truth_spans": 10
+  },
+  "eval:sub16:3": {
+   "kind": "like",
+   "s": "a 70 websites li",
+   "truth_spans": 5
+  },
+  "eval:sub16:4": {
+   "kind": "like",
+   "s": " do through the ",
+   "truth_spans": 16
+  },
+  "eval:sub16:5": {
+   "kind": "like",
+   "s": "okemon and named",
+   "truth_spans": 23
+  },
+  "eval:sub16:6": {
+   "kind": "like",
+   "s": " inside of a car",
+   "truth_spans": 8
+  },
+  "eval:sub16:7": {
+   "kind": "like",
+   "s": "e bottom of the ",
+   "truth_spans": 232
+  },
+  "eval:sub16:8": {
+   "kind": "like",
+   "s": "I help you today",
+   "truth_spans": 234
+  },
+  "eval:sub16:9": {
+   "kind": "like",
+   "s": "ave Clumsy bubbl",
+   "truth_spans": 12
+  },
+  "eval:sub32:0": {
+   "kind": "like",
+   "s": "oemr) might eccentrically try to",
+   "truth_spans": 5
+  },
+  "eval:sub32:1": {
+   "kind": "like",
+   "s": "lass and became a larger proport",
+   "truth_spans": 1
+  },
+  "eval:sub32:2": {
+   "kind": "like",
+   "s": "projection of a point onto a Bez",
+   "truth_spans": 15
+  },
+  "eval:sub32:3": {
+   "kind": "like",
+   "s": "tration of tafamidis in the vitr",
+   "truth_spans": 10
+  },
+  "eval:sub32:4": {
+   "kind": "like",
+   "s": "heir path is one of confrontatio",
+   "truth_spans": 43
+  },
+  "eval:sub32:5": {
+   "kind": "like",
+   "s": "ing out devices like EicC and CH",
+   "truth_spans": 6
+  },
+  "eval:sub32:6": {
+   "kind": "like",
+   "s": " to schedule mentorship calls wi",
+   "truth_spans": 35
+  },
+  "eval:sub32:7": {
+   "kind": "like",
+   "s": "e de la estructura de la empresa",
+   "truth_spans": 10
+  },
+  "eval:sub32:8": {
+   "kind": "like",
+   "s": "ibute to a broader understanding",
+   "truth_spans": 5
+  },
+  "eval:sub32:9": {
+   "kind": "like",
+   "s": "s with information on the specif",
+   "truth_spans": 8
+  }
+ }
+}

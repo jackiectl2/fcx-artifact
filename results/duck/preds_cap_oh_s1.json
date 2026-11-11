@@ -1,0 +1,159 @@
+{
+ "sample": "cap_oh_s1",
+ "manager": "prefix",
+ "source": "fcx/results/r1_2026-10-03_late/cap_oh_s1__index_prefix.json",
+ "source_md5": "8e46f796f55873b34a294d6477484176",
+ "meta": {},
+ "predicates": {
+  "eval:sub8:0": {
+   "kind": "like",
+   "s": "3. KEY D",
+   "truth_spans": 4
+  },
+  "eval:sub8:1": {
+   "kind": "like",
+   "s": "a471dace",
+   "truth_spans": 38
+  },
+  "eval:sub8:2": {
+   "kind": "like",
+   "s": "c2f98566",
+   "truth_spans": 12
+  },
+  "eval:sub8:3": {
+   "kind": "like",
+   "s": "alues ac",
+   "truth_spans": 980
+  },
+  "eval:sub8:4": {
+   "kind": "like",
+   "s": "repobee-",
+   "truth_spans": 717
+  },
+  "eval:sub8:5": {
+   "kind": "like",
+   "s": "eam = se",
+   "truth_spans": 1846
+  },
+  "eval:sub16:0": {
+   "kind": "like",
+   "s": "owner filtering",
+   "truth_spans": 50
+  },
+  "eval:sub16:1": {
+   "kind": "like",
+   "s": "30d54109b368407d",
+   "truth_spans": 1
+  },
+  "eval:sub16:2": {
+   "kind": "like",
+   "s": "6ea4784a6b9f1410",
+   "truth_spans": 91
+  },
+  "eval:sub16:3": {
+   "kind": "like",
+   "s": "kspace/googleapi",
+   "truth_spans": 2064
+  },
+  "eval:sub16:4": {
+   "kind": "like",
+   "s": "tory: /workspace",
+   "truth_spans": 178352
+  },
+  "eval:sub16:5": {
+   "kind": "like",
+   "s": "  64      0     ",
+   "truth_spans": 250
+  },
+  "eval:sub32:0": {
+   "kind": "like",
+   "s": "fic tests for the fix are passin",
+   "truth_spans": 23
+  },
+  "eval:sub32:1": {
+   "kind": "like",
+   "s": "l-tool-aaf9d1a3b2fa4d3983d8023f3",
+   "truth_spans": 14
+  },
+  "eval:sub32:2": {
+   "kind": "like",
+   "s": "ltCredentialsError: Your default",
+   "truth_spans": 61
+  },
+  "eval:sub32:3": {
+   "kind": "like",
+   "s": "eral to understand the test data",
+   "truth_spans": 46
+  },
+  "eval:sub32:4": {
+   "kind": "like",
+   "s": "ool-6a22b3c10de34ad3a2534bb978f1",
+   "truth_spans": 36
+  },
+  "eval:sub32:5": {
+   "kind": "like",
+   "s": "est data to understand the struc",
+   "truth_spans": 821
+  },
+  "eval:re:0": {
+   "kind": "match",
+   "s": "Ran [0-9]+ tests? in [0-9.]+s",
+   "truth_spans": 13484
+  },
+  "eval:re:1": {
+   "kind": "match",
+   "s": "def test_[a-z0-9_]+",
+   "truth_spans": 135934
+  },
+  "eval:re:2": {
+   "kind": "match",
+   "s": "import [a-z]+ as [a-z]+",
+   "truth_spans": 66130
+  },
+  "eval:re:3": {
+   "kind": "match",
+   "s": "git (diff|status|log)",
+   "truth_spans": 193136
+  },
+  "eval:re:4": {
+   "kind": "match",
+   "s": "[0-9]+ failed, [0-9]+ passed",
+   "truth_spans": 30256
+  },
+  "eval:re:5": {
+   "kind": "match",
+   "s": "No such file or directory: [^ ]+",
+   "truth_spans": 5833
+  },
+  "eval:t:traceback": {
+   "kind": "like",
+   "s": "Traceback (most recent call last)",
+   "truth_spans": 101333
+  },
+  "eval:t:nosuchfile": {
+   "kind": "like",
+   "s": "No such file or directory",
+   "truth_spans": 10965
+  },
+  "eval:t:assertionerror": {
+   "kind": "like",
+   "s": "AssertionError",
+   "truth_spans": 38188
+  },
+  "eval:t:importnumpy": {
+   "kind": "like",
+   "s": "import numpy",
+   "truth_spans": 34826
+  },
+  "eval:t:deftest": {
+   "kind": "like",
+   "s": "def test_",
+   "truth_spans": 136349
+  },
+  "eval:t:gitdiff": {
+   "kind": "like",
+   "s": "git diff",
+   "truth_spans": 9142
+  }
+ }
+}

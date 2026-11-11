@@ -1,0 +1,17 @@
+cap_oh_s1 prefix
+cap_oh_s1 autogen_buf32
+cap_oh_s1 autogen_ht
+cap_oh_s1 lc_trim32k
+cap_gym_s1 prefix
+cap_gym_s1 autogen_buf32
+cap_gym_s1 autogen_ht
+cap_gym_s1 lc_trim32k
+cap_smith_s1 prefix
+cap_smith_s1 autogen_buf32
+cap_smith_s1 lc_trim32k
+cap_smith_s1 swea_cache2
+cap_smith_s1 swea_last5
+cap_swea_s1 prefix
+cap_swea_s1 autogen_ht
+cap_swea_s1 swea_last5
+cap_swea_s1 swea_window

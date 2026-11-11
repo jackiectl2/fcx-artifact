@@ -1,0 +1,35 @@
+{
+ "src": "data/chat_pools/chat_pool_s1.parquet",
+ "format": "swegym",
+ "corpus_trajectories": 3000,
+ "sample": 0,
+ "seed": 1,
+ "traces": 3000,
+ "spans": 44134,
+ "managers": {
+  "prefix": {
+   "requests": 44134,
+   "logical_bytes": 745780848,
+   "messages_sent": 876118,
+   "seconds": 5.792107874527574
+  },
+  "autogen_buf32": {
+   "requests": 44134,
+   "logical_bytes": 610476413,
+   "messages_sent": 691403,
+   "seconds": 7.519366607069969
+  },
+  "autogen_ht": {
+   "requests": 44134,
+   "logical_bytes": 613552614,
+   "messages_sent": 697178,
+   "seconds": 6.7626578863710165
+  },
+  "lc_trim32k": {
+   "requests": 44134,
+   "logical_bytes": 697002798,
+   "messages_sent": 860324,
+   "seconds": 11.47838077135384
+  }
+ }
+}

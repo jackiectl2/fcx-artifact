@@ -1,0 +1,12 @@
+cap_chat_s1 prefix
+cap_chat_s1 autogen_buf32
+cap_chat_s1 autogen_ht
+cap_chat_s1 lc_trim32k
+cap_chat_s2 prefix
+cap_chat_s2 autogen_buf32
+cap_chat_s2 autogen_ht
+cap_chat_s2 lc_trim32k
+cap_chat_s3 prefix
+cap_chat_s3 autogen_buf32
+cap_chat_s3 autogen_ht
+cap_chat_s3 lc_trim32k

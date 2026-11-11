@@ -1,0 +1,90 @@
+{
+ "duckdb": "1.5.6",
+ "threads": 16,
+ "openhands_rebench": {
+  "dataset": "openhands_rebench",
+  "trajectories": 3000,
+  "spans": 192065,
+  "spans_per_trajectory": 64.0,
+  "logical_chars": 29394214639,
+  "unique_within_trace_chars": 817212393,
+  "unique_cross_trace_chars": 732175723,
+  "unique_messages": 383490,
+  "prefix_nodes": 383497,
+  "redundancy_within_trace_x": 35.97,
+  "redundancy_cross_trace_x": 40.15,
+  "cross_trace_extra_x": 1.12,
+  "disk_bytes": {
+   "raw_jsonl": 29453642854,
+   "wide_parquet_zstd3": 229367497,
+   "jsonl_zstd9_long30": 102387069,
+   "shared_parquet_zstd3": 100883301
+  },
+  "shared_smaller_than_wide_parquet_x": 2.27,
+  "shared_smaller_than_jsonl_zstd_long_x": 1.01,
+  "build_s": 197.9,
+  "queries": {
+   "contains:Traceback (most recent call last)": {
+    "wide_count": 100568,
+    "shared_count": 100568,
+    "match": true,
+    "wide_s": 0.9426,
+    "shared_s": 0.0701,
+    "speedup_x": 13.5
+   },
+   "contains:No such file or directory": {
+    "wide_count": 9693,
+    "shared_count": 9693,
+    "match": true,
+    "wide_s": 1.1304,
+    "shared_s": 0.065,
+    "speedup_x": 17.4
+   },
+   "contains:AssertionError": {
+    "wide_count": 38282,
+    "shared_count": 38282,
+    "match": true,
+    "wide_s": 0.9532,
+    "shared_s": 0.0633,
+    "speedup_x": 15.0
+   },
+   "regex:Error: [A-Za-z ]+ not found": {
+    "wide_count": 4549,
+    "shared_count": 4549,
+    "match": true,
+    "wide_s": 1.0269,
+    "shared_s": 0.064,
+    "speedup_x": 16.0
+   },
+   "shared_breakdown": {
+    "scan_unique_messages_s": 0.0609,
+    "propagate_s": 0.0063,
+    "wide_row_groups": 3000,
+    "messages_row_groups": 94
+   },
+   "first_span:Traceback (most recent call last)": {
+    "match": true,
+    "groups": 2188,
+    "wide_s": 0.9735,
+    "shared_s": 0.0786,
+    "speedup_x": 12.4
+   },
+   "sum_input_chars_per_trace": {
+    "match": true,
+    "wide_s": 1.2322,
+    "shared_s": 0.0153,
+    "speedup_x": 80.4
+   },
+   "judge_prefill_chars": {
+    "spans": 192065,
+    "unique_messages": 383490,
+    "one_call_per_span_full_input": 29191550398,
+    "whole_context_with_prefix_reuse": 732178050,
+    "one_call_per_unique_message": 732175723,
+    "reduction_whole_context_x": 39.87,
+    "reduction_message_decomposable_x": 39.87
+   }
+  },
+  "wall_s": 226.9
+ }
+}

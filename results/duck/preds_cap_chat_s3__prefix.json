@@ -1,0 +1,158 @@
+{
+ "sample": "cap_chat_s3",
+ "manager": "prefix",
+ "source": "results/chat/cap_chat_s3__index_prefix.json",
+ "source_md5": "803262f6b3c41ec9ce6b9d1c4051179a",
+ "predicates": {
+  "eval:sub8:0": {
+   "kind": "like",
+   "s": "omo el c",
+   "truth_spans": 164
+  },
+  "eval:sub8:1": {
+   "kind": "like",
+   "s": "4:02 UTC",
+   "truth_spans": 6
+  },
+  "eval:sub8:2": {
+   "kind": "like",
+   "s": "aditiona",
+   "truth_spans": 3710
+  },
+  "eval:sub8:3": {
+   "kind": "like",
+   "s": "t of Hom",
+   "truth_spans": 102
+  },
+  "eval:sub8:4": {
+   "kind": "like",
+   "s": "ue struc",
+   "truth_spans": 42
+  },
+  "eval:sub8:5": {
+   "kind": "like",
+   "s": "they for",
+   "truth_spans": 374
+  },
+  "eval:sub8:6": {
+   "kind": "like",
+   "s": "rovide m",
+   "truth_spans": 2997
+  },
+  "eval:sub8:7": {
+   "kind": "like",
+   "s": "so this ",
+   "truth_spans": 233
+  },
+  "eval:sub8:8": {
+   "kind": "like",
+   "s": "al maze ",
+   "truth_spans": 43
+  },
+  "eval:sub8:9": {
+   "kind": "like",
+   "s": " letters",
+   "truth_spans": 551
+  },
+  "eval:sub16:0": {
+   "kind": "like",
+   "s": "rs impliquant de",
+   "truth_spans": 7
+  },
+  "eval:sub16:1": {
+   "kind": "like",
+   "s": "yang betul adala",
+   "truth_spans": 18
+  },
+  "eval:sub16:2": {
+   "kind": "like",
+   "s": "on the above que",
+   "truth_spans": 16
+  },
+  "eval:sub16:3": {
+   "kind": "like",
+   "s": "o you. I think h",
+   "truth_spans": 11
+  },
+  "eval:sub16:4": {
+   "kind": "like",
+   "s": " these issues as",
+   "truth_spans": 2
+  },
+  "eval:sub16:5": {
+   "kind": "like",
+   "s": " but low in vita",
+   "truth_spans": 3
+  },
+  "eval:sub16:6": {
+   "kind": "like",
+   "s": "ing Vtuber chann",
+   "truth_spans": 9
+  },
+  "eval:sub16:7": {
+   "kind": "like",
+   "s": "against any one ",
+   "truth_spans": 16
+  },
+  "eval:sub16:8": {
+   "kind": "like",
+   "s": "o write the cont",
+   "truth_spans": 40
+  },
+  "eval:sub16:9": {
+   "kind": "like",
+   "s": "add slight elabo",
+   "truth_spans": 3
+  },
+  "eval:sub32:0": {
+   "kind": "like",
+   "s": "put the Property in any better ",
+   "truth_spans": 9
+  },
+  "eval:sub32:1": {
+   "kind": "like",
+   "s": "liberate practice theory suggest",
+   "truth_spans": 6
+  },
+  "eval:sub32:2": {
+   "kind": "like",
+   "s": "ir views on gender roles and exp",
+   "truth_spans": 10
+  },
+  "eval:sub32:3": {
+   "kind": "like",
+   "s": "on the enduring issue of racism ",
+   "truth_spans": 5
+  },
+  "eval:sub32:4": {
+   "kind": "like",
+   "s": "dentity-obj-proxy devDependency ",
+   "truth_spans": 16
+  },
+  "eval:sub32:5": {
+   "kind": "like",
+   "s": " One of the most natural incenti",
+   "truth_spans": 1
+  },
+  "eval:sub32:6": {
+   "kind": "like",
+   "s": " deceased grandmother who would ",
+   "truth_spans": 31
+  },
+  "eval:sub32:7": {
+   "kind": "like",
+   "s": "n bester Laune radle ich Richtun",
+   "truth_spans": 9
+  },
+  "eval:sub32:8": {
+   "kind": "like",
+   "s": "n funciona http://localhost:9090",
+   "truth_spans": 8
+  },
+  "eval:sub32:9": {
+   "kind": "like",
+   "s": "d version of the basic twitter p",
+   "truth_spans": 25
+  }
+ }
+}

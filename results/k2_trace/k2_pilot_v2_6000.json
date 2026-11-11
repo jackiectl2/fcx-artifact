@@ -1,0 +1,176 @@
+{
+ "duckdb": "1.5.6",
+ "threads": 16,
+ "openhands_swegym": {
+  "dataset": "openhands_swegym",
+  "trajectories": 6000,
+  "spans": 112843,
+  "spans_per_trajectory": 18.8,
+  "logical_chars": 7434332085,
+  "unique_within_trace_chars": 400424473,
+  "unique_cross_trace_chars": 360022341,
+  "unique_messages": 211793,
+  "prefix_nodes": 224907,
+  "redundancy_within_trace_x": 18.57,
+  "redundancy_cross_trace_x": 20.65,
+  "cross_trace_extra_x": 1.11,
+  "disk_bytes": {
+   "raw_jsonl": 7440072148,
+   "wide_parquet_zstd3": 130128405,
+   "jsonl_zstd9_long30": 48651357,
+   "shared_parquet_zstd3": 61478177
+  },
+  "shared_smaller_than_wide_parquet_x": 2.12,
+  "shared_smaller_than_jsonl_zstd_long_x": 0.79,
+  "build_s": 43.6,
+  "queries": {
+   "contains:Traceback (most recent call last)": {
+    "wide_count": 49646,
+    "shared_count": 49646,
+    "match": true,
+    "wide_s": 0.2545,
+    "shared_s": 0.0389,
+    "speedup_x": 6.5
+   },
+   "contains:No such file or directory": {
+    "wide_count": 9575,
+    "shared_count": 9575,
+    "match": true,
+    "wide_s": 0.2653,
+    "shared_s": 0.0361,
+    "speedup_x": 7.4
+   },
+   "contains:AssertionError": {
+    "wide_count": 14686,
+    "shared_count": 14686,
+    "match": true,
+    "wide_s": 0.27,
+    "shared_s": 0.0355,
+    "speedup_x": 7.6
+   },
+   "regex:Error: [A-Za-z ]+ not found": {
+    "wide_count": 270,
+    "shared_count": 270,
+    "match": true,
+    "wide_s": 0.2711,
+    "shared_s": 0.035,
+    "speedup_x": 7.7
+   },
+   "shared_breakdown": {
+    "scan_unique_messages_s": 0.0357,
+    "propagate_s": 0.0032,
+    "wide_row_groups": 6000,
+    "messages_row_groups": 52
+   },
+   "first_span:Traceback (most recent call last)": {
+    "match": true,
+    "groups": 2613,
+    "wide_s": 0.3046,
+    "shared_s": 0.0416,
+    "speedup_x": 7.3
+   },
+   "sum_input_chars_per_trace": {
+    "match": true,
+    "wide_s": 0.3835,
+    "shared_s": 0.0104,
+    "speedup_x": 37.0
+   },
+   "judge_prefill_chars": {
+    "spans": 112843,
+    "unique_messages": 211793,
+    "one_call_per_span_full_input": 7346292703,
+    "whole_context_with_prefix_reuse": 365099692,
+    "one_call_per_unique_message": 360022341,
+    "reduction_whole_context_x": 20.12,
+    "reduction_message_decomposable_x": 20.41
+   }
+  },
+  "wall_s": 53.9
+ },
+ "sweagent": {
+  "dataset": "sweagent",
+  "trajectories": 6000,
+  "spans": 157364,
+  "spans_per_trajectory": 26.2,
+  "logical_chars": 8018813889,
+  "unique_within_trace_chars": 296482780,
+  "unique_cross_trace_chars": 181989012,
+  "unique_messages": 178886,
+  "prefix_nodes": 307365,
+  "redundancy_within_trace_x": 27.05,
+  "redundancy_cross_trace_x": 44.06,
+  "cross_trace_extra_x": 1.63,
+  "disk_bytes": {
+   "raw_jsonl": 8030577308,
+   "wide_parquet_zstd3": 98804253,
+   "jsonl_zstd9_long30": 19923604,
+   "shared_parquet_zstd3": 22731492
+  },
+  "shared_smaller_than_wide_parquet_x": 4.35,
+  "shared_smaller_than_jsonl_zstd_long_x": 0.88,
+  "build_s": 40.6,
+  "queries": {
+   "contains:Traceback (most recent call last)": {
+    "wide_count": 68469,
+    "shared_count": 68469,
+    "match": true,
+    "wide_s": 0.2449,
+    "shared_s": 0.0234,
+    "speedup_x": 10.5
+   },
+   "contains:No such file or directory": {
+    "wide_count": 27388,
+    "shared_count": 27388,
+    "match": true,
+    "wide_s": 0.2669,
+    "shared_s": 0.0208,
+    "speedup_x": 12.8
+   },
+   "contains:AssertionError": {
+    "wide_count": 12836,
+    "shared_count": 12836,
+    "match": true,
+    "wide_s": 0.2647,
+    "shared_s": 0.0209,
+    "speedup_x": 12.7
+   },
+   "regex:Error: [A-Za-z ]+ not found": {
+    "wide_count": 1611,
+    "shared_count": 1611,
+    "match": true,
+    "wide_s": 0.2854,
+    "shared_s": 0.0207,
+    "speedup_x": 13.8
+   },
+   "shared_breakdown": {
+    "scan_unique_messages_s": 0.0161,
+    "propagate_s": 0.0064,
+    "wide_row_groups": 5999,
+    "messages_row_groups": 44
+   },
+   "first_span:Traceback (most recent call last)": {
+    "match": true,
+    "groups": 2856,
+    "wide_s": 0.3071,
+    "shared_s": 0.0273,
+    "speedup_x": 11.3
+   },
+   "sum_input_chars_per_trace": {
+    "match": true,
+    "wide_s": 0.3965,
+    "shared_s": 0.0155,
+    "speedup_x": 25.5
+   },
+   "judge_prefill_chars": {
+    "spans": 157364,
+    "unique_messages": 178886,
+    "one_call_per_span_full_input": 7934975166,
+    "whole_context_with_prefix_reuse": 327754228,
+    "one_call_per_unique_message": 181989012,
+    "reduction_whole_context_x": 24.21,
+    "reduction_message_decomposable_x": 43.6
+   }
+  },
+  "wall_s": 49.3
+ }
+}

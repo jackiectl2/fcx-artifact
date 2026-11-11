@@ -1,0 +1,159 @@
+{
+ "sample": "cap_smith_s1",
+ "manager": "prefix",
+ "source": "fcx/results/r1_2026-10-24/cap_smith_s1__index_prefix.json",
+ "source_md5": "265d2a7a20f327f95b4b928469ce104c",
+ "meta": {},
+ "predicates": {
+  "eval:sub8:0": {
+   "kind": "like",
+   "s": "fig opti",
+   "truth_spans": 1699
+  },
+  "eval:sub8:1": {
+   "kind": "like",
+   "s": "ebuffer.",
+   "truth_spans": 580
+  },
+  "eval:sub8:2": {
+   "kind": "like",
+   "s": "look at ",
+   "truth_spans": 84693
+  },
+  "eval:sub8:3": {
+   "kind": "like",
+   "s": "k(size))",
+   "truth_spans": 39
+  },
+  "eval:sub8:4": {
+   "kind": "like",
+   "s": "4siWjAq6",
+   "truth_spans": 9
+  },
+  "eval:sub8:5": {
+   "kind": "like",
+   "s": "bed/pand",
+   "truth_spans": 3283
+  },
+  "eval:sub16:0": {
+   "kind": "like",
+   "s": "or iterators or ",
+   "truth_spans": 41
+  },
+  "eval:sub16:1": {
+   "kind": "like",
+   "s": "tus to SUCCESS i",
+   "truth_spans": 3
+  },
+  "eval:sub16:2": {
+   "kind": "like",
+   "s": "e for DamerauLev",
+   "truth_spans": 20
+  },
+  "eval:sub16:3": {
+   "kind": "like",
+   "s": "ll --upgrade pip",
+   "truth_spans": 236
+  },
+  "eval:sub16:4": {
+   "kind": "like",
+   "s": "u intend to vali",
+   "truth_spans": 140
+  },
+  "eval:sub16:5": {
+   "kind": "like",
+   "s": "ially be wrong. ",
+   "truth_spans": 18
+  },
+  "eval:sub32:0": {
+   "kind": "like",
+   "s": "verts ndarray subclasses into ba",
+   "truth_spans": 186
+  },
+  "eval:sub32:1": {
+   "kind": "like",
+   "s": "ems there are some build issues.",
+   "truth_spans": 12
+  },
+  "eval:sub32:2": {
+   "kind": "like",
+   "s": " and make sure they are as expec",
+   "truth_spans": 59234
+  },
+  "eval:sub32:3": {
+   "kind": "like",
+   "s": "Test different completion scenar",
+   "truth_spans": 167
+  },
+  "eval:sub32:4": {
+   "kind": "like",
+   "s": "     response = await channel.re",
+   "truth_spans": 101
+  },
+  "eval:sub32:5": {
+   "kind": "like",
+   "s": "s check the command structure in",
+   "truth_spans": 58
+  },
+  "eval:re:0": {
+   "kind": "match",
+   "s": "Ran [0-9]+ tests? in [0-9.]+s",
+   "truth_spans": 2210
+  },
+  "eval:re:1": {
+   "kind": "match",
+   "s": "def test_[a-z0-9_]+",
+   "truth_spans": 38111
+  },
+  "eval:re:2": {
+   "kind": "match",
+   "s": "import [a-z]+ as [a-z]+",
+   "truth_spans": 29813
+  },
+  "eval:re:3": {
+   "kind": "match",
+   "s": "git (diff|status|log)",
+   "truth_spans": 1530
+  },
+  "eval:re:4": {
+   "kind": "match",
+   "s": "[0-9]+ failed, [0-9]+ passed",
+   "truth_spans": 2091
+  },
+  "eval:re:5": {
+   "kind": "match",
+   "s": "No such file or directory: [^ ]+",
+   "truth_spans": 2222
+  },
+  "eval:t:traceback": {
+   "kind": "like",
+   "s": "Traceback (most recent call last)",
+   "truth_spans": 44175
+  },
+  "eval:t:nosuchfile": {
+   "kind": "like",
+   "s": "No such file or directory",
+   "truth_spans": 3563
+  },
+  "eval:t:assertionerror": {
+   "kind": "like",
+   "s": "AssertionError",
+   "truth_spans": 11282
+  },
+  "eval:t:importnumpy": {
+   "kind": "like",
+   "s": "import numpy",
+   "truth_spans": 11224
+  },
+  "eval:t:deftest": {
+   "kind": "like",
+   "s": "def test_",
+   "truth_spans": 38201
+  },
+  "eval:t:gitdiff": {
+   "kind": "like",
+   "s": "git diff",
+   "truth_spans": 359
+  }
+ }
+}

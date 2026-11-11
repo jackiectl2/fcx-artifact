@@ -1,0 +1,12 @@
+cap_chat_s1 index_prefix --workload chat --policies prefix --wide-policies prefix --stages base:build:bytes:index --indexes none:token:ngrams3:ngrams4:sparsegrams:bloom4 --seed 1 --cold 2 --warm 3
+cap_chat_s1 index_autogen_buf32 --workload chat --policies autogen_buf32 --wide-policies autogen_buf32 --stages base:build:bytes:index --indexes none:token:ngrams3:ngrams4:sparsegrams:bloom4 --seed 1 --cold 2 --warm 3
+cap_chat_s1 index_autogen_ht --workload chat --policies autogen_ht --wide-policies autogen_ht --stages base:build:bytes:index --indexes none:token:ngrams3:ngrams4:sparsegrams:bloom4 --seed 1 --cold 2 --warm 3
+cap_chat_s1 index_lc_trim32k --workload chat --policies lc_trim32k --wide-policies lc_trim32k --stages base:build:bytes:index --indexes none:token:ngrams3:ngrams4:sparsegrams:bloom4 --seed 1 --cold 2 --warm 3
+cap_chat_s2 index_prefix --workload chat --policies prefix --wide-policies prefix --stages base:build:bytes:index --indexes none:token:ngrams3:ngrams4:sparsegrams:bloom4 --seed 2 --cold 2 --warm 3
+cap_chat_s2 index_autogen_buf32 --workload chat --policies autogen_buf32 --wide-policies autogen_buf32 --stages base:build:bytes:index --indexes none:token:ngrams3:ngrams4:sparsegrams:bloom4 --seed 2 --cold 2 --warm 3
+cap_chat_s2 index_autogen_ht --workload chat --policies autogen_ht --wide-policies autogen_ht --stages base:build:bytes:index --indexes none:token:ngrams3:ngrams4:sparsegrams:bloom4 --seed 2 --cold 2 --warm 3
+cap_chat_s2 index_lc_trim32k --workload chat --policies lc_trim32k --wide-policies lc_trim32k --stages base:build:bytes:index --indexes none:token:ngrams3:ngrams4:sparsegrams:bloom4 --seed 2 --cold 2 --warm 3
+cap_chat_s3 index_prefix --workload chat --policies prefix --wide-policies prefix --stages base:build:bytes:index --indexes none:token:ngrams3:ngrams4:sparsegrams:bloom4 --seed 3 --cold 2 --warm 3
+cap_chat_s3 index_autogen_buf32 --workload chat --policies autogen_buf32 --wide-policies autogen_buf32 --stages base:build:bytes:index --indexes none:token:ngrams3:ngrams4:sparsegrams:bloom4 --seed 3 --cold 2 --warm 3
+cap_chat_s3 index_autogen_ht --workload chat --policies autogen_ht --wide-policies autogen_ht --stages base:build:bytes:index --indexes none:token:ngrams3:ngrams4:sparsegrams:bloom4 --seed 3 --cold 2 --warm 3
+cap_chat_s3 index_lc_trim32k --workload chat --policies lc_trim32k --wide-policies lc_trim32k --stages base:build:bytes:index --indexes none:token:ngrams3:ngrams4:sparsegrams:bloom4 --seed 3 --cold 2 --warm 3

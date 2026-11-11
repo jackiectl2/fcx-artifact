@@ -1,0 +1,3 @@
+wiki_s1 wiki
+wiki_s2 wiki
+wiki_s3 wiki

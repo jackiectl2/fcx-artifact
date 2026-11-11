@@ -1,0 +1,158 @@
+{
+ "sample": "wiki_s1",
+ "manager": "wiki",
+ "source": "results/wiki/wiki_s1__index.json",
+ "source_md5": "12fa782fe9f5d811a25b40e97d1438ae",
+ "predicates": {
+  "eval:sub8:0": {
+   "kind": "like",
+   "s": "mail bei",
+   "truth_spans": 12
+  },
+  "eval:sub8:1": {
+   "kind": "like",
+   "s": " Labrous",
+   "truth_spans": 10
+  },
+  "eval:sub8:2": {
+   "kind": "like",
+   "s": "Revoluti",
+   "truth_spans": 2550
+  },
+  "eval:sub8:3": {
+   "kind": "like",
+   "s": "Chinese ",
+   "truth_spans": 3595
+  },
+  "eval:sub8:4": {
+   "kind": "like",
+   "s": "ousand C",
+   "truth_spans": 14
+  },
+  "eval:sub8:5": {
+   "kind": "like",
+   "s": "y:Living",
+   "truth_spans": 11183
+  },
+  "eval:sub8:6": {
+   "kind": "like",
+   "s": "thology ",
+   "truth_spans": 1255
+  },
+  "eval:sub8:7": {
+   "kind": "like",
+   "s": "ble-Deck",
+   "truth_spans": 9
+  },
+  "eval:sub8:8": {
+   "kind": "like",
+   "s": "f Malays",
+   "truth_spans": 99
+  },
+  "eval:sub8:9": {
+   "kind": "like",
+   "s": "ry:1898 ",
+   "truth_spans": 127
+  },
+  "eval:sub16:0": {
+   "kind": "like",
+   "s": "Category:Syrian ",
+   "truth_spans": 10
+  },
+  "eval:sub16:1": {
+   "kind": "like",
+   "s": "ed independence ",
+   "truth_spans": 198
+  },
+  "eval:sub16:2": {
+   "kind": "like",
+   "s": " that aliens hav",
+   "truth_spans": 5
+  },
+  "eval:sub16:3": {
+   "kind": "like",
+   "s": "g the song to Pe",
+   "truth_spans": 51
+  },
+  "eval:sub16:4": {
+   "kind": "like",
+   "s": "ps://lawnsroot.c",
+   "truth_spans": 9
+  },
+  "eval:sub16:5": {
+   "kind": "like",
+   "s": "pt by the United",
+   "truth_spans": 167
+  },
+  "eval:sub16:6": {
+   "kind": "like",
+   "s": "name=gameoveronl",
+   "truth_spans": 105
+  },
+  "eval:sub16:7": {
+   "kind": "like",
+   "s": " October 2022 to",
+   "truth_spans": 10
+  },
+  "eval:sub16:8": {
+   "kind": "like",
+   "s": "== Advantages ==",
+   "truth_spans": 13
+  },
+  "eval:sub16:9": {
+   "kind": "like",
+   "s": "an animated come",
+   "truth_spans": 109
+  },
+  "eval:sub32:0": {
+   "kind": "like",
+   "s": "is a list of one hundred Americ",
+   "truth_spans": 21
+  },
+  "eval:sub32:1": {
+   "kind": "like",
+   "s": " organ music during this period.",
+   "truth_spans": 249
+  },
+  "eval:sub32:2": {
+   "kind": "like",
+   "s": "ies premiered from Monday to Sat",
+   "truth_spans": 14
+  },
+  "eval:sub32:3": {
+   "kind": "like",
+   "s": "val at the 26th anniversary cele",
+   "truth_spans": 39
+  },
+  "eval:sub32:4": {
+   "kind": "like",
+   "s": "he county has a total area of 92",
+   "truth_spans": 7
+  },
+  "eval:sub32:5": {
+   "kind": "like",
+   "s": " took away many of its people to",
+   "truth_spans": 128
+  },
+  "eval:sub32:6": {
+   "kind": "like",
+   "s": "harashtrians also moved to MP as",
+   "truth_spans": 38
+  },
+  "eval:sub32:7": {
+   "kind": "like",
+   "s": "oets gave up both rhyme and the ",
+   "truth_spans": 49
+  },
+  "eval:sub32:8": {
+   "kind": "like",
+   "s": "neous perspective. He conducted ",
+   "truth_spans": 1
+  },
+  "eval:sub32:9": {
+   "kind": "like",
+   "s": "s are correct as of 3 March 2008",
+   "truth_spans": 14
+  }
+ }
+}

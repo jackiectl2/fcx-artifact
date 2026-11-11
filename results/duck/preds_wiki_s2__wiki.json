@@ -1,0 +1,158 @@
+{
+ "sample": "wiki_s2",
+ "manager": "wiki",
+ "source": "results/wiki/wiki_s2__index.json",
+ "source_md5": "56bb911c5e0ef055a0224a4ca17ecb26",
+ "predicates": {
+  "eval:sub8:0": {
+   "kind": "like",
+   "s": "slington",
+   "truth_spans": 53
+  },
+  "eval:sub8:1": {
+   "kind": "like",
+   "s": "lers fro",
+   "truth_spans": 859
+  },
+  "eval:sub8:2": {
+   "kind": "like",
+   "s": " align=c",
+   "truth_spans": 818
+  },
+  "eval:sub8:3": {
+   "kind": "like",
+   "s": "nant-wom",
+   "truth_spans": 37
+  },
+  "eval:sub8:4": {
+   "kind": "like",
+   "s": "=The Cal",
+   "truth_spans": 25
+  },
+  "eval:sub8:5": {
+   "kind": "like",
+   "s": ". In the",
+   "truth_spans": 8714
+  },
+  "eval:sub8:6": {
+   "kind": "like",
+   "s": "rgaderin",
+   "truth_spans": 32
+  },
+  "eval:sub8:7": {
+   "kind": "like",
+   "s": "tem. Thi",
+   "truth_spans": 60
+  },
+  "eval:sub8:8": {
+   "kind": "like",
+   "s": "switched",
+   "truth_spans": 194
+  },
+  "eval:sub8:9": {
+   "kind": "like",
+   "s": "01 estab",
+   "truth_spans": 140
+  },
+  "eval:sub16:0": {
+   "kind": "like",
+   "s": "ces end with the",
+   "truth_spans": 190
+  },
+  "eval:sub16:1": {
+   "kind": "like",
+   "s": "c:22 de setenbre",
+   "truth_spans": 86
+  },
+  "eval:sub16:2": {
+   "kind": "like",
+   "s": "e the Supreme Al",
+   "truth_spans": 199
+  },
+  "eval:sub16:3": {
+   "kind": "like",
+   "s": "East West MRT Li",
+   "truth_spans": 10
+  },
+  "eval:sub16:4": {
+   "kind": "like",
+   "s": "          = Marc",
+   "truth_spans": 90
+  },
+  "eval:sub16:5": {
+   "kind": "like",
+   "s": " Xtra Factor hos",
+   "truth_spans": 58
+  },
+  "eval:sub16:6": {
+   "kind": "like",
+   "s": "place in the sum",
+   "truth_spans": 48
+  },
+  "eval:sub16:7": {
+   "kind": "like",
+   "s": "es use the accen",
+   "truth_spans": 40
+  },
+  "eval:sub16:8": {
+   "kind": "like",
+   "s": "fficial language",
+   "truth_spans": 1098
+  },
+  "eval:sub16:9": {
+   "kind": "like",
+   "s": "y/tech/columnist",
+   "truth_spans": 43
+  },
+  "eval:sub32:0": {
+   "kind": "like",
+   "s": "when he was 19 years and 3 month",
+   "truth_spans": 22
+  },
+  "eval:sub32:1": {
+   "kind": "like",
+   "s": " (Imperial Society of Teachers o",
+   "truth_spans": 20
+  },
+  "eval:sub32:2": {
+   "kind": "like",
+   "s": "safeguarding of the imperial hou",
+   "truth_spans": 59
+  },
+  "eval:sub32:3": {
+   "kind": "like",
+   "s": "e HUGO Gene Nomenclature Committ",
+   "truth_spans": 1
+  },
+  "eval:sub32:4": {
+   "kind": "like",
+   "s": "alized that this cocoon was the ",
+   "truth_spans": 247
+  },
+  "eval:sub32:5": {
+   "kind": "like",
+   "s": "itle=Music: Facing a Broken Mirr",
+   "truth_spans": 22
+  },
+  "eval:sub32:6": {
+   "kind": "like",
+   "s": "American toy and entertainment c",
+   "truth_spans": 63
+  },
+  "eval:sub32:7": {
+   "kind": "like",
+   "s": "l parts of tissue or nutrients f",
+   "truth_spans": 21
+  },
+  "eval:sub32:8": {
+   "kind": "like",
+   "s": "w.domkerk.nl/domchurch/history.h",
+   "truth_spans": 47
+  },
+  "eval:sub32:9": {
+   "kind": "like",
+   "s": "or by directly transferring the ",
+   "truth_spans": 22
+  }
+ }
+}

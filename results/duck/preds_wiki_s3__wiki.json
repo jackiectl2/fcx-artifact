@@ -1,0 +1,158 @@
+{
+ "sample": "wiki_s3",
+ "manager": "wiki",
+ "source": "results/wiki/wiki_s3__index.json",
+ "source_md5": "73216272f72f631cee872b1bb146963c",
+ "predicates": {
+  "eval:sub8:0": {
+   "kind": "like",
+   "s": "gibralta",
+   "truth_spans": 13
+  },
+  "eval:sub8:1": {
+   "kind": "like",
+   "s": "    -   ",
+   "truth_spans": 14
+  },
+  "eval:sub8:2": {
+   "kind": "like",
+   "s": "The head",
+   "truth_spans": 311
+  },
+  "eval:sub8:3": {
+   "kind": "like",
+   "s": "ell Hall",
+   "truth_spans": 79
+  },
+  "eval:sub8:4": {
+   "kind": "like",
+   "s": "best. An",
+   "truth_spans": 203
+  },
+  "eval:sub8:5": {
+   "kind": "like",
+   "s": "es they ",
+   "truth_spans": 1080
+  },
+  "eval:sub8:6": {
+   "kind": "like",
+   "s": "tegory:G",
+   "truth_spans": 6864
+  },
+  "eval:sub8:7": {
+   "kind": "like",
+   "s": "pened in",
+   "truth_spans": 2278
+  },
+  "eval:sub8:8": {
+   "kind": "like",
+   "s": "e third ",
+   "truth_spans": 4083
+  },
+  "eval:sub8:9": {
+   "kind": "like",
+   "s": "aribbean",
+   "truth_spans": 1165
+  },
+  "eval:sub16:0": {
+   "kind": "like",
+   "s": "ndoza (provincie",
+   "truth_spans": 57
+  },
+  "eval:sub16:1": {
+   "kind": "like",
+   "s": "ed-87/46687642 R",
+   "truth_spans": 88
+  },
+  "eval:sub16:2": {
+   "kind": "like",
+   "s": "ulated the tilt ",
+   "truth_spans": 86
+  },
+  "eval:sub16:3": {
+   "kind": "like",
+   "s": "large amounts of",
+   "truth_spans": 97
+  },
+  "eval:sub16:4": {
+   "kind": "like",
+   "s": "er served as U.S",
+   "truth_spans": 14
+  },
+  "eval:sub16:5": {
+   "kind": "like",
+   "s": "tightly bound to",
+   "truth_spans": 128
+  },
+  "eval:sub16:6": {
+   "kind": "like",
+   "s": "nce had a giant ",
+   "truth_spans": 1
+  },
+  "eval:sub16:7": {
+   "kind": "like",
+   "s": "ey personnel fro",
+   "truth_spans": 88
+  },
+  "eval:sub16:8": {
+   "kind": "like",
+   "s": " Me Know - Perfu",
+   "truth_spans": 4
+  },
+  "eval:sub16:9": {
+   "kind": "like",
+   "s": "again became par",
+   "truth_spans": 93
+  },
+  "eval:sub32:0": {
+   "kind": "like",
+   "s": "tegory: World War II prisoner of",
+   "truth_spans": 8
+  },
+  "eval:sub32:1": {
+   "kind": "like",
+   "s": "ted R. The original romance movi",
+   "truth_spans": 12
+  },
+  "eval:sub32:2": {
+   "kind": "like",
+   "s": "<redacted in this package: sampled dataset text matching a path or identifier pattern>",
+   "truth_spans": 30
+  },
+  "eval:sub32:3": {
+   "kind": "like",
+   "s": "argest building in Persepolis in",
+   "truth_spans": 50
+  },
+  "eval:sub32:4": {
+   "kind": "like",
+   "s": "as one of greatest bands in hist",
+   "truth_spans": 19
+  },
+  "eval:sub32:5": {
+   "kind": "like",
+   "s": "ing so it is always a good idea ",
+   "truth_spans": 4
+  },
+  "eval:sub32:6": {
+   "kind": "like",
+   "s": "g is basic and is illegal almost",
+   "truth_spans": 29
+  },
+  "eval:sub32:7": {
+   "kind": "like",
+   "s": "on            = Center Street (2",
+   "truth_spans": 5
+  },
+  "eval:sub32:8": {
+   "kind": "like",
+   "s": "e stem cells may divide uncontro",
+   "truth_spans": 17
+  },
+  "eval:sub32:9": {
+   "kind": "like",
+   "s": "Category:African American musici",
+   "truth_spans": 121
+  }
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "purpose": "Identity of the E-CHAT capture/ingestion runs that chat_summary.py cannot read from convert_stats (the arrival seed). Written 2026-11-08T14:05-05:00 from the job record. Package copy: sbatch_sha256 is the hash of the templated cluster/chat_capture.sbatch of this package (site paths replaced by variables); the code hash is unchanged.",
+ "capture_job": "65700588 (array 0-2, one element per sample)",
+ "sbatch": "cluster/chat_capture.sbatch",
+ "sbatch_sha256": "e7d7a0c08fd855c2ef850832b30f432496d80ecf3906c9db00b904da927fb133",
+ "code_md5_printed_by_job": "0fc2c60676cdc10f76f082a47005b4d3",
+ "code_md5_files": [
+  "fcx/capture.py",
+  "fcx/ingest.py",
+  "fcx/ingest_run.py",
+  "fcx/convert.py"
+ ],
+ "ingest_arguments": "--delta 1 --interleave 64 --seed 1"
+}

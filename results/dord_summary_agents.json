@@ -1,0 +1,1173 @@
+{
+ "protocol": "refine-logs/E-DORD-PROTOCOL.md",
+ "groups": {
+  "agents": {
+   "pairs": {
+    "cap_oh_s1/prefix": {
+     "pair_id": "65819609_0",
+     "pair_order": "id,first",
+     "source": "legacy_agent/cap_oh_s1__index_prefix.json",
+     "storage": {
+      "id": {
+       "dictionary_bytes": 118827112,
+       "dictionary_granularity": 8192,
+       "dictionary_columns": {
+        "text": 117289939,
+        "msg_id": 1537173
+       },
+       "wide_bytes": 1137162569
+      },
+      "first": {
+       "dictionary_bytes": 111776438,
+       "dictionary_granularity": 8192,
+       "dictionary_columns": {
+        "text": 110016904,
+        "first_span": 222337,
+        "msg_id": 1537197
+       },
+       "wide_bytes": 1136063848
+      },
+      "dictionary_id_over_first": 1.0630783564600619
+     },
+     "kinds": {
+      "none": {
+       "speedup": {
+        "id": {
+         "warm": 16.290943515940306,
+         "cold": 10.700820079051006,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        },
+        "first": {
+         "warm": 16.8040704719906,
+         "cold": 11.982718371351329,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.0453209975504967,
+        "cold": 1.1058104453329067
+       },
+       "wide_id_over_first": {
+        "warm": 0.9858935290932602,
+        "cold": 1.0018651085956225
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "token": {
+       "speedup": {
+        "id": {
+         "warm": 17.256993578641044,
+         "cold": 9.196406437971458,
+         "wide_faster_warm": 1,
+         "wide_faster_cold": 0
+        },
+        "first": {
+         "warm": 17.87211826557228,
+         "cold": 10.268318126704,
+         "wide_faster_warm": 5,
+         "wide_faster_cold": 4
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.046567158671209,
+        "cold": 1.1076914724648503
+       },
+       "wide_id_over_first": {
+        "warm": 1.010007323323594,
+        "cold": 0.9993252886975186
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "ngrams3": {
+       "speedup": {
+        "id": {
+         "warm": 24.900747765079046,
+         "cold": 9.270804994346427,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 1
+        },
+        "first": {
+         "warm": 26.5959942092475,
+         "cold": 10.417357449847774,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.0446460920894736,
+        "cold": 1.126442519622509
+       },
+       "wide_id_over_first": {
+        "warm": 1.0130272409572418,
+        "cold": 0.9937877938528205
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "ngrams4": {
+       "speedup": {
+        "id": {
+         "warm": 14.880626354095327,
+         "cold": 5.196276507627152,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 3
+        },
+        "first": {
+         "warm": 19.204520343949657,
+         "cold": 6.659783382760329,
+         "wide_faster_warm": 1,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.0463804718206968,
+        "cold": 1.207838888803479
+       },
+       "wide_id_over_first": {
+        "warm": 0.9829918428116097,
+        "cold": 0.9679418501173227
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "sparsegrams": {
+       "speedup": {
+        "id": {
+         "warm": 9.550784716433162,
+         "cold": 2.8449465544407424,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 2
+        },
+        "first": {
+         "warm": 10.401731336862085,
+         "cold": 3.5322604087798326,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 1
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.0894376269296635,
+        "cold": 1.2338498902782484
+       },
+       "wide_id_over_first": {
+        "warm": 0.9906000704112005,
+        "cold": 1.0571379953649203
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "bloom4": {
+       "speedup": {
+        "id": {
+         "warm": 6.70006420939804,
+         "cold": 4.015042949049866,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        },
+        "first": {
+         "warm": 7.562739825865526,
+         "cold": 4.333064544149053,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.073521715094955,
+        "cold": 1.078703961450151
+       },
+       "wide_id_over_first": {
+        "warm": 1.0082637651287079,
+        "cold": 0.9872672303164627
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 16384,
+         "wide_param": 16384
+        },
+        "first": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 16384,
+         "wide_param": 16384
+        }
+       },
+       "same_parameters": true
+      }
+     }
+    },
+    "cap_swea_s1/prefix": {
+     "pair_id": "65819611_1",
+     "pair_order": "first,id",
+     "source": "legacy_agent/cap_swea_s1__index_prefix.json",
+     "storage": {
+      "id": {
+       "dictionary_bytes": 19653085,
+       "dictionary_granularity": 8192,
+       "dictionary_columns": {
+        "text": 19265818,
+        "msg_id": 387267
+       },
+       "wide_bytes": 54556277
+      },
+      "first": {
+       "dictionary_bytes": 15825388,
+       "dictionary_granularity": 8192,
+       "dictionary_columns": {
+        "text": 15418005,
+        "first_span": 21883,
+        "msg_id": 385500
+       },
+       "wide_bytes": 54612574
+      },
+      "dictionary_id_over_first": 1.241870657452443
+     },
+     "kinds": {
+      "none": {
+       "speedup": {
+        "id": {
+         "warm": 9.827153763170934,
+         "cold": 2.6819980090750106,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        },
+        "first": {
+         "warm": 11.01515787604764,
+         "cold": 3.097592148868544,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.1586677974281399,
+        "cold": 1.1364461210760635
+       },
+       "wide_id_over_first": {
+        "warm": 1.0515938841337793,
+        "cold": 1.0222854132557049
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "token": {
+       "speedup": {
+        "id": {
+         "warm": 9.35303763479472,
+         "cold": 2.670993096759567,
+         "wide_faster_warm": 2,
+         "wide_faster_cold": 2
+        },
+        "first": {
+         "warm": 10.599186843582405,
+         "cold": 3.0245707301347653,
+         "wide_faster_warm": 2,
+         "wide_faster_cold": 2
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.137046671107991,
+        "cold": 1.1015719094588252
+       },
+       "wide_id_over_first": {
+        "warm": 1.049442234068776,
+        "cold": 0.9966770047456368
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": false
+      },
+      "ngrams3": {
+       "speedup": {
+        "id": {
+         "warm": 12.040250277604889,
+         "cold": 2.553014352836763,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 2
+        },
+        "first": {
+         "warm": 13.943616546374376,
+         "cold": 3.0774034856998305,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.1756526645041294,
+        "cold": 1.308269605398075
+       },
+       "wide_id_over_first": {
+        "warm": 1.0852357933393482,
+        "cold": 1.033774950068133
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "ngrams4": {
+       "speedup": {
+        "id": {
+         "warm": 9.253878179317457,
+         "cold": 2.598619984554693,
+         "wide_faster_warm": 1,
+         "wide_faster_cold": 2
+        },
+        "first": {
+         "warm": 10.594740044166517,
+         "cold": 3.2979303468347525,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.162770008651528,
+        "cold": 1.3286450739271838
+       },
+       "wide_id_over_first": {
+        "warm": 1.0047599808306469,
+        "cold": 1.0307593735018203
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "sparsegrams": {
+       "speedup": {
+        "id": {
+         "warm": 7.218640202438243,
+         "cold": 2.780596271362314,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        },
+        "first": {
+         "warm": 10.589892716266652,
+         "cold": 3.1407485066806275,
+         "wide_faster_warm": 1,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.3551071340687197,
+        "cold": 1.178594965618399
+       },
+       "wide_id_over_first": {
+        "warm": 1.0454275180159107,
+        "cold": 1.0544344248739024
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": false
+      },
+      "bloom4": {
+       "speedup": {
+        "id": {
+         "warm": 7.0963722752274245,
+         "cold": 2.3325533266471945,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        },
+        "first": {
+         "warm": 7.171173885748049,
+         "cold": 2.610482378448023,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.108224629905791,
+        "cold": 1.1940543272087525
+       },
+       "wide_id_over_first": {
+        "warm": 1.035471371615436,
+        "cold": 1.0254980148876935
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 16384,
+         "wide_param": 16384
+        },
+        "first": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 16384,
+         "wide_param": 16384
+        }
+       },
+       "same_parameters": true
+      }
+     }
+    },
+    "cap_smith_s1/prefix": {
+     "pair_id": "65819610_2",
+     "pair_order": "id,first",
+     "source": "legacy_agent/cap_smith_s1__index_prefix.json",
+     "storage": {
+      "id": {
+       "dictionary_bytes": 58372329,
+       "dictionary_granularity": 8192,
+       "dictionary_columns": {
+        "text": 57699890,
+        "msg_id": 672439
+       },
+       "wide_bytes": 219001848
+      },
+      "first": {
+       "dictionary_bytes": 46963136,
+       "dictionary_granularity": 8192,
+       "dictionary_columns": {
+        "text": 46260868,
+        "first_span": 30661,
+        "msg_id": 671607
+       },
+       "wide_bytes": 219330512
+      },
+      "dictionary_id_over_first": 1.2429393343749446
+     },
+     "kinds": {
+      "none": {
+       "speedup": {
+        "id": {
+         "warm": 7.363945627561443,
+         "cold": 3.5595933902103307,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        },
+        "first": {
+         "warm": 8.33704942273243,
+         "cold": 4.104375329066469,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.0764500727160864,
+        "cold": 1.1305930047546922
+       },
+       "wide_id_over_first": {
+        "warm": 0.9508075515372094,
+        "cold": 0.9843564743658959
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "token": {
+       "speedup": {
+        "id": {
+         "warm": 7.609892992717102,
+         "cold": 3.1436677762513052,
+         "wide_faster_warm": 2,
+         "wide_faster_cold": 2
+        },
+        "first": {
+         "warm": 8.483905446622853,
+         "cold": 4.33059620838522,
+         "wide_faster_warm": 2,
+         "wide_faster_cold": 2
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 0.9891806153732214,
+        "cold": 1.2475079657240835
+       },
+       "wide_id_over_first": {
+        "warm": 0.9088485065952802,
+        "cold": 0.9035742824160266
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "ngrams3": {
+       "speedup": {
+        "id": {
+         "warm": 11.392995404964424,
+         "cold": 3.8944329981290204,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        },
+        "first": {
+         "warm": 14.21508502705989,
+         "cold": 4.961586403725331,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.0593856314127001,
+        "cold": 1.1944671314189304
+       },
+       "wide_id_over_first": {
+        "warm": 0.947529178704834,
+        "cold": 0.9858295867212297
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "ngrams4": {
+       "speedup": {
+        "id": {
+         "warm": 7.209639062374695,
+         "cold": 2.5078441092367685,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 1
+        },
+        "first": {
+         "warm": 7.649974672952373,
+         "cold": 3.4587763245674115,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.0441068959857773,
+        "cold": 1.1879042701192999
+       },
+       "wide_id_over_first": {
+        "warm": 0.9726918794608029,
+        "cold": 0.9784285319482372
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "sparsegrams": {
+       "speedup": {
+        "id": {
+         "warm": 5.825776096864586,
+         "cold": 2.273604347745688,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 1
+        },
+        "first": {
+         "warm": 5.61810221514943,
+         "cold": 3.1200234791638137,
+         "wide_faster_warm": 1,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.0778405068274723,
+        "cold": 1.172353480137276
+       },
+       "wide_id_over_first": {
+        "warm": 0.9614047580791487,
+        "cold": 0.9895938960684766
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "bloom4": {
+       "speedup": {
+        "id": {
+         "warm": 4.028910778577328,
+         "cold": 2.2128823629041663,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 2
+        },
+        "first": {
+         "warm": 5.092529621506858,
+         "cold": 2.6063444622198166,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.228459088290185,
+        "cold": 1.1541448904727853
+       },
+       "wide_id_over_first": {
+        "warm": 0.9334289778709519,
+        "cold": 0.9718549435882218
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 16384,
+         "wide_param": 16384
+        },
+        "first": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 16384,
+         "wide_param": 16384
+        }
+       },
+       "same_parameters": true
+      }
+     }
+    },
+    "cap_gym_s1/prefix": {
+     "pair_id": "65819612_3",
+     "pair_order": "first,id",
+     "source": "legacy_agent/cap_gym_s1__index_prefix.json",
+     "storage": {
+      "id": {
+       "dictionary_bytes": 37135453,
+       "dictionary_granularity": 8192,
+       "dictionary_columns": {
+        "text": 36706415,
+        "msg_id": 429038
+       },
+       "wide_bytes": 114043390
+      },
+      "first": {
+       "dictionary_bytes": 31347468,
+       "dictionary_granularity": 8192,
+       "dictionary_columns": {
+        "text": 30903217,
+        "first_span": 15200,
+        "msg_id": 429051
+       },
+       "wide_bytes": 114078825
+      },
+      "dictionary_id_over_first": 1.1846396334147307
+     },
+     "kinds": {
+      "none": {
+       "speedup": {
+        "id": {
+         "warm": 7.1236950853848935,
+         "cold": 2.923767680813696,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        },
+        "first": {
+         "warm": 8.233346820724169,
+         "cold": 3.438346560909306,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.0636314936712081,
+        "cold": 1.1468881848631525
+       },
+       "wide_id_over_first": {
+        "warm": 0.9963576256049471,
+        "cold": 0.9930490796224773
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "token": {
+       "speedup": {
+        "id": {
+         "warm": 9.13413446356169,
+         "cold": 2.656307270669682,
+         "wide_faster_warm": 3,
+         "wide_faster_cold": 3
+        },
+        "first": {
+         "warm": 9.778644771558856,
+         "cold": 3.2535766904226,
+         "wide_faster_warm": 3,
+         "wide_faster_cold": 3
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.1003529689893234,
+        "cold": 1.2014584165032889
+       },
+       "wide_id_over_first": {
+        "warm": 1.0223906581139373,
+        "cold": 0.9771744061844774
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "ngrams3": {
+       "speedup": {
+        "id": {
+         "warm": 12.326287527757833,
+         "cold": 3.4610265981578756,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        },
+        "first": {
+         "warm": 13.160352710907969,
+         "cold": 4.145873182290446,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.1157816882609373,
+        "cold": 1.1927007890777357
+       },
+       "wide_id_over_first": {
+        "warm": 1.0728928700495546,
+        "cold": 1.0031732533380207
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "ngrams4": {
+       "speedup": {
+        "id": {
+         "warm": 11.494160954102831,
+         "cold": 3.665834111161976,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        },
+        "first": {
+         "warm": 11.594667801308802,
+         "cold": 3.952958037501676,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.0819505176529969,
+        "cold": 1.1804249812646073
+       },
+       "wide_id_over_first": {
+        "warm": 1.0539291777819915,
+        "cold": 1.0184447743037333
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "sparsegrams": {
+       "speedup": {
+        "id": {
+         "warm": 8.982852478820814,
+         "cold": 2.607506634618349,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 1
+        },
+        "first": {
+         "warm": 9.320322955648729,
+         "cold": 3.1215213077946258,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 1
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.0419529050599006,
+        "cold": 1.162496488228325
+       },
+       "wide_id_over_first": {
+        "warm": 0.9822978084997922,
+        "cold": 0.980433140576761
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 0,
+         "wide_param": 0
+        }
+       },
+       "same_parameters": true
+      },
+      "bloom4": {
+       "speedup": {
+        "id": {
+         "warm": 6.225120771026038,
+         "cold": 2.6518116060927257,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        },
+        "first": {
+         "warm": 8.70812834900354,
+         "cold": 3.1793001440253033,
+         "wide_faster_warm": 0,
+         "wide_faster_cold": 0
+        }
+       },
+       "fcx_id_over_first": {
+        "warm": 1.3765035998976316,
+        "cold": 1.0406057434597291
+       },
+       "wide_id_over_first": {
+        "warm": 1.1045606125026257,
+        "cold": 0.9116271111831993
+       },
+       "chosen": {
+        "id": {
+         "dictionary_granularity": 512,
+         "dictionary_param": 16384,
+         "wide_param": 16384
+        },
+        "first": {
+         "dictionary_granularity": 64,
+         "dictionary_param": 4096,
+         "wide_param": 65536
+        }
+       },
+       "same_parameters": false
+      }
+     }
+    }
+   },
+   "ranges": {
+    "dictionary_id_over_first": {
+     "min": 1.0630783564600619,
+     "max": 1.2429393343749446
+    },
+    "speedup_id_warm_all_indexes": {
+     "min": 4.028910778577328,
+     "max": 24.900747765079046
+    },
+    "speedup_id_cold_all_indexes": {
+     "min": 2.2128823629041663,
+     "max": 10.700820079051006
+    },
+    "speedup_first_warm_all_indexes": {
+     "min": 5.092529621506858,
+     "max": 26.5959942092475
+    },
+    "speedup_first_cold_all_indexes": {
+     "min": 2.6063444622198166,
+     "max": 11.982718371351329
+    },
+    "wide_faster_id_warm_max": 3,
+    "wide_faster_id_cold_max": 3,
+    "wide_faster_first_warm_max": 5,
+    "wide_faster_first_cold_max": 4,
+    "fcx_id_over_first_warm": {
+     "min": 0.9891806153732214,
+     "max": 1.3765035998976316
+    },
+    "fcx_id_over_first_cold": {
+     "min": 1.0406057434597291,
+     "max": 1.3286450739271838
+    },
+    "wide_id_over_first_warm": {
+     "min": 0.9088485065952802,
+     "max": 1.1045606125026257
+    },
+    "wide_id_over_first_cold": {
+     "min": 0.9035742824160266,
+     "max": 1.0571379953649203
+    },
+    "by_index": {
+     "none": {
+      "id_warm": {
+       "min": 7.1236950853848935,
+       "max": 16.290943515940306
+      },
+      "id_cold": {
+       "min": 2.6819980090750106,
+       "max": 10.700820079051006
+      },
+      "first_warm": {
+       "min": 8.233346820724169,
+       "max": 16.8040704719906
+      },
+      "first_cold": {
+       "min": 3.097592148868544,
+       "max": 11.982718371351329
+      }
+     },
+     "token": {
+      "id_warm": {
+       "min": 7.609892992717102,
+       "max": 17.256993578641044
+      },
+      "id_cold": {
+       "min": 2.656307270669682,
+       "max": 9.196406437971458
+      },
+      "first_warm": {
+       "min": 8.483905446622853,
+       "max": 17.87211826557228
+      },
+      "first_cold": {
+       "min": 3.0245707301347653,
+       "max": 10.268318126704
+      }
+     },
+     "ngrams3": {
+      "id_warm": {
+       "min": 11.392995404964424,
+       "max": 24.900747765079046
+      },
+      "id_cold": {
+       "min": 2.553014352836763,
+       "max": 9.270804994346427
+      },
+      "first_warm": {
+       "min": 13.160352710907969,
+       "max": 26.5959942092475
+      },
+      "first_cold": {
+       "min": 3.0774034856998305,
+       "max": 10.417357449847774
+      }
+     },
+     "ngrams4": {
+      "id_warm": {
+       "min": 7.209639062374695,
+       "max": 14.880626354095327
+      },
+      "id_cold": {
+       "min": 2.5078441092367685,
+       "max": 5.196276507627152
+      },
+      "first_warm": {
+       "min": 7.649974672952373,
+       "max": 19.204520343949657
+      },
+      "first_cold": {
+       "min": 3.2979303468347525,
+       "max": 6.659783382760329
+      }
+     },
+     "sparsegrams": {
+      "id_warm": {
+       "min": 5.825776096864586,
+       "max": 9.550784716433162
+      },
+      "id_cold": {
+       "min": 2.273604347745688,
+       "max": 2.8449465544407424
+      },
+      "first_warm": {
+       "min": 5.61810221514943,
+       "max": 10.589892716266652
+      },
+      "first_cold": {
+       "min": 3.1200234791638137,
+       "max": 3.5322604087798326
+      }
+     },
+     "bloom4": {
+      "id_warm": {
+       "min": 4.028910778577328,
+       "max": 7.0963722752274245
+      },
+      "id_cold": {
+       "min": 2.2128823629041663,
+       "max": 4.015042949049866
+      },
+      "first_warm": {
+       "min": 5.092529621506858,
+       "max": 8.70812834900354
+      },
+      "first_cold": {
+       "min": 2.6063444622198166,
+       "max": 4.333064544149053
+      }
+     }
+    },
+    "parameter_changes": 3,
+    "pair_orders": {
+     "id,first": 2,
+     "first,id": 2
+    }
+   }
+  }
+ },
+ "status": "ok",
+ "problems": [],
+ "missing": []
+}

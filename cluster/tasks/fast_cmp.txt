@@ -1,0 +1,4 @@
+cap_oh_s1 prefix:autogen_buf32:autogen_ht:lc_trim32k
+cap_smith_s1 prefix:swea_cache2:swea_last5:autogen_buf32:lc_trim32k
+cap_swea_s1 prefix:swea_last5:swea_window:autogen_ht
+cap_gym_s1 prefix:autogen_buf32:autogen_ht:lc_trim32k

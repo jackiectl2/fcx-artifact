@@ -1,0 +1,13 @@
+# Only for fcx/capture.py: the agent frameworks whose context managers produce the captured requests, at the versions recorded
+# (pip freeze) in the image used for the paper's capture samples (python:3.12-slim base).
+numpy==2.5.3
+pyarrow==25.0.1
+orjson==3.12.0
+xxhash==4.0.1
+tiktoken==0.14.0
+langchain-core==1.6.6
+autogen-core==0.7.5
+litellm==1.103.2
+# SWE-agent was installed from the main branch of its repository at capture time (it reported version 1.1.0); the branch has
+# moved since, so pin a commit of your choice for a stable rebuild.
+sweagent @ https://github.com/SWE-agent/SWE-agent/archive/refs/heads/main.tar.gz

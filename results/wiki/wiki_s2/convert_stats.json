@@ -1,0 +1,47 @@
+{
+ "src": "data/wiki_s2",
+ "traces": 3000,
+ "spans": 112336,
+ "distinct_messages": 143578,
+ "dictionary_bytes": 170355906,
+ "budget": 64,
+ "ckpt": 32,
+ "interleave": 64,
+ "peak_rss_mb": 468.3,
+ "policies": {
+  "wiki": {
+   "array_elems": 1116153,
+   "opens": 177574,
+   "closes": 152579,
+   "checkpoint_elems": 40032,
+   "wide_chars": 702882781,
+   "parsed_bytes": 192424363,
+   "new_messages": 143578,
+   "new_message_bytes": 170355906,
+   "variants": 16459,
+   "variant_bytes": 48231427,
+   "max_active_traces": 64,
+   "fallbacks": 69,
+   "mean_context_len": 9.94,
+   "transitions": 330153,
+   "transitions_per_span": 2.939,
+   "mean_run_len_spans": 6.29,
+   "ingest": {
+    "requests": 112336,
+    "interleave": 64,
+    "delta": 1,
+    "wall_s": 28.6,
+    "cpu_s": 28.5,
+    "seconds": {
+     "read": 2.8,
+     "ingest": 19.2,
+     "write": 6.5
+    },
+    "requests_per_s": 3930.4,
+    "logical_mb_per_s": 24.6,
+    "peak_rss_mb_so_far": 468.3,
+    "distinct_messages_so_far": 143578
+   }
+  }
+ }
+}

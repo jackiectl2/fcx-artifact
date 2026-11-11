@@ -1,0 +1,159 @@
+{
+ "sample": "cap_gym_s1",
+ "manager": "prefix",
+ "source": "fcx/results/r1_2026-10-24/cap_gym_s1__index_prefix.json",
+ "source_md5": "dd0545b0ad4b5a9a06d34d155b03a8e9",
+ "meta": {},
+ "predicates": {
+  "eval:sub8:0": {
+   "kind": "like",
+   "s": "the ran",
+   "truth_spans": 8300
+  },
+  "eval:sub8:1": {
+   "kind": "like",
+   "s": "vEMIQ9Dk",
+   "truth_spans": 237
+  },
+  "eval:sub8:2": {
+   "kind": "like",
+   "s": "changes ",
+   "truth_spans": 57786
+  },
+  "eval:sub8:3": {
+   "kind": "like",
+   "s": "h explor",
+   "truth_spans": 1281
+  },
+  "eval:sub8:4": {
+   "kind": "like",
+   "s": "s in the",
+   "truth_spans": 57786
+  },
+  "eval:sub8:5": {
+   "kind": "like",
+   "s": " error a",
+   "truth_spans": 57786
+  },
+  "eval:sub16:0": {
+   "kind": "like",
+   "s": "n- The remote is",
+   "truth_spans": 11
+  },
+  "eval:sub16:1": {
+   "kind": "like",
+   "s": "rmation/parsing.",
+   "truth_spans": 6437
+  },
+  "eval:sub16:2": {
+   "kind": "like",
+   "s": "esult of running",
+   "truth_spans": 41131
+  },
+  "eval:sub16:3": {
+   "kind": "like",
+   "s": "e9tEO4NS4QDntNt8",
+   "truth_spans": 26
+  },
+  "eval:sub16:4": {
+   "kind": "like",
+   "s": "dvc/remote/local",
+   "truth_spans": 2151
+  },
+  "eval:sub16:5": {
+   "kind": "like",
+   "s": " was called from",
+   "truth_spans": 30
+  },
+  "eval:sub32:0": {
+   "kind": "like",
+   "s": "referenced before assignment du",
+   "truth_spans": 7
+  },
+  "eval:sub32:1": {
+   "kind": "like",
+   "s": "arts of the source code to ensur",
+   "truth_spans": 24
+  },
+  "eval:sub32:2": {
+   "kind": "like",
+   "s": " names to accommodate for scenar",
+   "truth_spans": 12
+  },
+  "eval:sub32:3": {
+   "kind": "like",
+   "s": " allow for an effective resoluti",
+   "truth_spans": 25
+  },
+  "eval:sub32:4": {
+   "kind": "like",
+   "s": "ve overview of the environment i",
+   "truth_spans": 1
+  },
+  "eval:sub32:5": {
+   "kind": "like",
+   "s": "s is the mypy type checker repos",
+   "truth_spans": 387
+  },
+  "eval:re:0": {
+   "kind": "match",
+   "s": "Ran [0-9]+ tests? in [0-9.]+s",
+   "truth_spans": 289
+  },
+  "eval:re:1": {
+   "kind": "match",
+   "s": "def test_[a-z0-9_]+",
+   "truth_spans": 9892
+  },
+  "eval:re:2": {
+   "kind": "match",
+   "s": "import [a-z]+ as [a-z]+",
+   "truth_spans": 20342
+  },
+  "eval:re:3": {
+   "kind": "match",
+   "s": "git (diff|status|log)",
+   "truth_spans": 262
+  },
+  "eval:re:4": {
+   "kind": "match",
+   "s": "[0-9]+ failed, [0-9]+ passed",
+   "truth_spans": 139
+  },
+  "eval:re:5": {
+   "kind": "match",
+   "s": "No such file or directory: [^ ]+",
+   "truth_spans": 1273
+  },
+  "eval:t:traceback": {
+   "kind": "like",
+   "s": "Traceback (most recent call last)",
+   "truth_spans": 25781
+  },
+  "eval:t:nosuchfile": {
+   "kind": "like",
+   "s": "No such file or directory",
+   "truth_spans": 4619
+  },
+  "eval:t:assertionerror": {
+   "kind": "like",
+   "s": "AssertionError",
+   "truth_spans": 7424
+  },
+  "eval:t:importnumpy": {
+   "kind": "like",
+   "s": "import numpy",
+   "truth_spans": 13986
+  },
+  "eval:t:deftest": {
+   "kind": "like",
+   "s": "def test_",
+   "truth_spans": 9910
+  },
+  "eval:t:gitdiff": {
+   "kind": "like",
+   "s": "git diff",
+   "truth_spans": 79
+  }
+ }
+}

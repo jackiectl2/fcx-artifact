@@ -1,0 +1,47 @@
+{
+ "src": "data/cap_chatall_s1",
+ "traces": 24498,
+ "spans": 360016,
+ "distinct_messages": 661734,
+ "dictionary_bytes": 612003475,
+ "budget": 64,
+ "ckpt": 32,
+ "interleave": 64,
+ "peak_rss_mb": 726.8,
+ "policies": {
+  "prefix": {
+   "array_elems": 6735168,
+   "opens": 695534,
+   "closes": 0,
+   "checkpoint_elems": 87029,
+   "wide_chars": 5988217047,
+   "parsed_bytes": 621433901,
+   "new_messages": 661734,
+   "new_message_bytes": 612003475,
+   "variants": 0,
+   "variant_bytes": 0,
+   "max_active_traces": 64,
+   "fallbacks": 0,
+   "mean_context_len": 18.71,
+   "transitions": 695534,
+   "transitions_per_span": 1.932,
+   "mean_run_len_spans": 9.68,
+   "ingest": {
+    "requests": 360016,
+    "interleave": 64,
+    "delta": 1,
+    "wall_s": 77.1,
+    "cpu_s": 77.0,
+    "seconds": {
+     "read": 15.2,
+     "ingest": 39.9,
+     "write": 22.1
+    },
+    "requests_per_s": 4668.8,
+    "logical_mb_per_s": 77.7,
+    "peak_rss_mb_so_far": 726.8,
+    "distinct_messages_so_far": 661734
+   }
+  }
+ }
+}

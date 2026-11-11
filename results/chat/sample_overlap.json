@@ -1,0 +1,18 @@
+{
+ "conversations": {
+  "1": 3000,
+  "2": 3000,
+  "3": 3000
+ },
+ "distinct": {
+  "1": 3000,
+  "2": 3000,
+  "3": 3000
+ },
+ "pairwise_overlap": {
+  "1-2": 0,
+  "1-3": 0,
+  "2-3": 0
+ },
+ "fingerprint": "xxh3_128 of the canonical JSON message list (role, content)"
+}

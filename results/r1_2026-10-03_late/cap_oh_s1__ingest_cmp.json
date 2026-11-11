@@ -1,0 +1,302 @@
+{
+ "delta0": {
+  "src": "data/cap_oh_s1",
+  "traces": 3000,
+  "spans": 193136,
+  "distinct_messages": 382799,
+  "dictionary_bytes": 715660763,
+  "budget": 64,
+  "ckpt": 32,
+  "interleave": 64,
+  "peak_rss_mb": 1256.9,
+  "policies": {
+   "prefix": {
+    "array_elems": 13831495,
+    "opens": 389278,
+    "closes": 0,
+    "checkpoint_elems": 440487,
+    "wide_chars": 29072282091,
+    "parsed_bytes": 29072282091,
+    "new_messages": 382639,
+    "new_message_bytes": 715653027,
+    "variants": 0,
+    "variant_bytes": 0,
+    "max_active_traces": 64,
+    "fallbacks": 0,
+    "mean_context_len": 71.62,
+    "transitions": 389278,
+    "transitions_per_span": 2.016,
+    "mean_run_len_spans": 35.53,
+    "ingest": {
+     "requests": 193136,
+     "interleave": 64,
+     "delta": 0,
+     "wall_s": 244.9,
+     "cpu_s": 243.3,
+     "seconds": {
+      "read": 48.1,
+      "ingest": 180.9,
+      "write": 15.8
+     },
+     "requests_per_s": 788.7,
+     "logical_mb_per_s": 118.7,
+     "peak_rss_mb_so_far": 1256.9,
+     "distinct_messages_so_far": 382639
+    }
+   },
+   "autogen_buf32": {
+    "array_elems": 5798560,
+    "opens": 389278,
+    "closes": 287278,
+    "checkpoint_elems": 165600,
+    "wide_chars": 15177819474,
+    "parsed_bytes": 15177819474,
+    "new_messages": 0,
+    "new_message_bytes": 0,
+    "variants": 0,
+    "variant_bytes": 0,
+    "max_active_traces": 64,
+    "fallbacks": 0,
+    "mean_context_len": 30.02,
+    "transitions": 676556,
+    "transitions_per_span": 3.503,
+    "mean_run_len_spans": 14.9,
+    "ingest": {
+     "requests": 193136,
+     "interleave": 64,
+     "delta": 0,
+     "wall_s": 136.9,
+     "cpu_s": 136.0,
+     "seconds": {
+      "read": 23.3,
+      "ingest": 104.4,
+      "write": 9.3
+     },
+     "requests_per_s": 1410.5,
+     "logical_mb_per_s": 110.8,
+     "peak_rss_mb_so_far": 1256.9,
+     "distinct_messages_so_far": 382639
+    }
+   },
+   "autogen_ht": {
+    "array_elems": 5798564,
+    "opens": 534414,
+    "closes": 432414,
+    "checkpoint_elems": 165600,
+    "wide_chars": 15510301895,
+    "parsed_bytes": 15510301895,
+    "new_messages": 160,
+    "new_message_bytes": 7736,
+    "variants": 0,
+    "variant_bytes": 0,
+    "max_active_traces": 64,
+    "fallbacks": 0,
+    "mean_context_len": 30.02,
+    "transitions": 966828,
+    "transitions_per_span": 5.006,
+    "mean_run_len_spans": 10.85,
+    "ingest": {
+     "requests": 193136,
+     "interleave": 64,
+     "delta": 0,
+     "wall_s": 141.1,
+     "cpu_s": 140.1,
+     "seconds": {
+      "read": 24.1,
+      "ingest": 107.3,
+      "write": 9.6
+     },
+     "requests_per_s": 1368.6,
+     "logical_mb_per_s": 109.9,
+     "peak_rss_mb_so_far": 1256.9,
+     "distinct_messages_so_far": 382799
+    }
+   },
+   "lc_trim32k": {
+    "array_elems": 10492060,
+    "opens": 389278,
+    "closes": 198348,
+    "checkpoint_elems": 325089,
+    "wide_chars": 22302580437,
+    "parsed_bytes": 22302580437,
+    "new_messages": 0,
+    "new_message_bytes": 0,
+    "variants": 0,
+    "variant_bytes": 0,
+    "max_active_traces": 64,
+    "fallbacks": 0,
+    "mean_context_len": 54.32,
+    "transitions": 587626,
+    "transitions_per_span": 3.043,
+    "mean_run_len_spans": 26.95,
+    "ingest": {
+     "requests": 193136,
+     "interleave": 64,
+     "delta": 0,
+     "wall_s": 190.1,
+     "cpu_s": 188.5,
+     "seconds": {
+      "read": 35.2,
+      "ingest": 145.0,
+      "write": 9.9
+     },
+     "requests_per_s": 1016.2,
+     "logical_mb_per_s": 117.3,
+     "peak_rss_mb_so_far": 1256.9,
+     "distinct_messages_so_far": 382799
+    }
+   }
+  }
+ },
+ "delta1": {
+  "src": "data/cap_oh_s1",
+  "traces": 3000,
+  "spans": 193136,
+  "distinct_messages": 382799,
+  "dictionary_bytes": 715660763,
+  "budget": 64,
+  "ckpt": 32,
+  "interleave": 64,
+  "peak_rss_mb": 1264.0,
+  "policies": {
+   "prefix": {
+    "array_elems": 13831495,
+    "opens": 389278,
+    "closes": 0,
+    "checkpoint_elems": 440487,
+    "wide_chars": 29072282091,
+    "parsed_bytes": 800759263,
+    "new_messages": 382639,
+    "new_message_bytes": 715653027,
+    "variants": 0,
+    "variant_bytes": 0,
+    "max_active_traces": 64,
+    "fallbacks": 0,
+    "mean_context_len": 71.62,
+    "transitions": 389278,
+    "transitions_per_span": 2.016,
+    "mean_run_len_spans": 35.53,
+    "ingest": {
+     "requests": 193136,
+     "interleave": 64,
+     "delta": 1,
+     "wall_s": 99.8,
+     "cpu_s": 97.7,
+     "seconds": {
+      "read": 42.9,
+      "ingest": 42.0,
+      "write": 14.9
+     },
+     "requests_per_s": 1934.9,
+     "logical_mb_per_s": 291.2,
+     "peak_rss_mb_so_far": 1263.5,
+     "distinct_messages_so_far": 382639
+    }
+   },
+   "autogen_buf32": {
+    "array_elems": 5798560,
+    "opens": 389278,
+    "closes": 287278,
+    "checkpoint_elems": 165600,
+    "wide_chars": 15177819474,
+    "parsed_bytes": 800759263,
+    "new_messages": 0,
+    "new_message_bytes": 0,
+    "variants": 0,
+    "variant_bytes": 0,
+    "max_active_traces": 64,
+    "fallbacks": 0,
+    "mean_context_len": 30.02,
+    "transitions": 676556,
+    "transitions_per_span": 3.503,
+    "mean_run_len_spans": 14.9,
+    "ingest": {
+     "requests": 193136,
+     "interleave": 64,
+     "delta": 1,
+     "wall_s": 97.2,
+     "cpu_s": 95.3,
+     "seconds": {
+      "read": 23.5,
+      "ingest": 65.0,
+      "write": 8.8
+     },
+     "requests_per_s": 1986.5,
+     "logical_mb_per_s": 156.1,
+     "peak_rss_mb_so_far": 1263.5,
+     "distinct_messages_so_far": 382639
+    }
+   },
+   "autogen_ht": {
+    "array_elems": 5798564,
+    "opens": 534414,
+    "closes": 432414,
+    "checkpoint_elems": 165600,
+    "wide_chars": 15510301895,
+    "parsed_bytes": 807731404,
+    "new_messages": 160,
+    "new_message_bytes": 7736,
+    "variants": 0,
+    "variant_bytes": 0,
+    "max_active_traces": 64,
+    "fallbacks": 0,
+    "mean_context_len": 30.02,
+    "transitions": 966828,
+    "transitions_per_span": 5.006,
+    "mean_run_len_spans": 10.85,
+    "ingest": {
+     "requests": 193136,
+     "interleave": 64,
+     "delta": 1,
+     "wall_s": 112.3,
+     "cpu_s": 109.9,
+     "seconds": {
+      "read": 24.0,
+      "ingest": 78.9,
+      "write": 9.4
+     },
+     "requests_per_s": 1720.1,
+     "logical_mb_per_s": 138.1,
+     "peak_rss_mb_so_far": 1263.5,
+     "distinct_messages_so_far": 382799
+    }
+   },
+   "lc_trim32k": {
+    "array_elems": 10492060,
+    "opens": 389278,
+    "closes": 198348,
+    "checkpoint_elems": 325089,
+    "wide_chars": 22302580437,
+    "parsed_bytes": 960320448,
+    "new_messages": 0,
+    "new_message_bytes": 0,
+    "variants": 0,
+    "variant_bytes": 0,
+    "max_active_traces": 64,
+    "fallbacks": 0,
+    "mean_context_len": 54.32,
+    "transitions": 587626,
+    "transitions_per_span": 3.043,
+    "mean_run_len_spans": 26.95,
+    "ingest": {
+     "requests": 193136,
+     "interleave": 64,
+     "delta": 1,
+     "wall_s": 103.8,
+     "cpu_s": 101.3,
+     "seconds": {
+      "read": 32.7,
+      "ingest": 62.1,
+      "write": 8.9
+     },
+     "requests_per_s": 1861.5,
+     "logical_mb_per_s": 215.0,
+     "peak_rss_mb_so_far": 1264.0,
+     "distinct_messages_so_far": 382799
+    }
+   }
+  }
+ },
+ "files_compared": 14,
+ "files_that_differ": []
+}
